@@ -1,0 +1,32 @@
+# KiCad: lock files
+~$*.kicad_*
+*.lck
+*.kicad_prl
+
+# KiCad: backups and autosaves
+*-backups/
+_autosave-*
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad: temporary and cache files
+*.tmp
+*.temp
+*.cache
+fp-info-cache
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local logs
+*.log
+
+# Project sources (*.kicad_pro, *.kicad_sch and *.kicad_pcb), project libraries,
+# and manufacturing outputs are intentionally not ignored.
