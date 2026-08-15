@@ -96,7 +96,7 @@
 			(pin passive line
 				(at 16.51 12.7 180)
 				(length 2.54)
-				(name "DTC"
+				(name "DCT"
 					(effects
 						(font
 							(size 1.27 1.27)
