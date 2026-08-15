@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "interbridge_telephony") (type "KiCad") (uri "C:/Users/hjca1/KiCad/interhardware/libraries/symbols/interbridge_telephony.kicad_sym") (options "") (descr ""))
+)
