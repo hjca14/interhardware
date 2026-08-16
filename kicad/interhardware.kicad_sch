@@ -5,7 +5,7 @@
 	(uuid "54dcf537-a517-4a60-ba81-f3f59fcd6b9a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:RJ11"
+		(symbol "Connector:6P6C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -25,7 +25,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ11"
+			(property "Value" "6P6C"
 				(at 2.54 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "RJ connector, 6P2C (6 positions 2 connected)"
+			(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,7 +69,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "6P2C RJ socket connector"
+			(property "ki_keywords" "6P6C RJ socket connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "6P2C* RJ11*"
+			(property "ki_fp_filters" "6P6C* RJ12* RJ18* RJ25*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -91,7 +91,7 @@
 					)
 				)
 			)
-			(symbol "RJ11_0_1"
+			(symbol "6P6C_0_1"
 				(polyline
 					(pts
 						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
@@ -190,9 +190,9 @@
 					)
 				)
 			)
-			(symbol "RJ11_1_1"
+			(symbol "6P6C_1_1"
 				(pin passive line
-					(at 10.16 0 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -210,7 +210,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -220,6 +220,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5342,6 +5414,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RING"
+		(exclude_from_sim no)
+		(at 382.27 179.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6676253-8a1a-4b3e-8950-373bbdb3d99b")
+	)
 	(text "No Ground in DAA Area"
 		(exclude_from_sim no)
 		(at 245.618 73.914 0)
@@ -5351,6 +5433,16 @@
 			)
 		)
 		(uuid "be5fd4c5-119e-4cae-ae5d-ffe28604f4fb")
+	)
+	(text "TIP"
+		(exclude_from_sim no)
+		(at 381.508 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb872318-b047-4204-8e71-b05ff6cb8184")
 	)
 	(junction
 		(at 292.1 171.45)
@@ -5395,12 +5487,6 @@
 		(uuid "18bc553d-0185-44b2-9b53-8a45139a2785")
 	)
 	(junction
-		(at 383.54 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d580bb7-82b6-48b7-8836-428e78892c10")
-	)
-	(junction
 		(at 321.31 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5423,12 +5509,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "274962bb-fdfe-4442-b78b-039a9652796c")
-	)
-	(junction
-		(at 386.08 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a9e8832-0b79-46fa-8539-b0327667027e")
 	)
 	(junction
 		(at 360.68 125.73)
@@ -5653,10 +5733,22 @@
 		(uuid "c8d849e7-b695-4801-9aac-934bce746e42")
 	)
 	(junction
+		(at 383.54 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc2ea0ab-12bd-46c2-8dfd-eb12fe254427")
+	)
+	(junction
 		(at 279.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1e8688b-fcbf-4270-b8b3-3a9838a59a68")
+	)
+	(junction
+		(at 386.08 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d273734d-7a78-46d9-87f6-950f23707942")
 	)
 	(junction
 		(at 377.19 195.58)
@@ -5701,8 +5793,40 @@
 		(uuid "f6f6aeca-80ed-45db-9b52-88254c1d5b94")
 	)
 	(no_connect
+		(at 389.89 181.61)
+		(uuid "00eb0975-7246-4716-bf5d-92a02958ffc4")
+	)
+	(no_connect
+		(at 389.89 214.63)
+		(uuid "03a1973e-e7bd-4f91-a88a-43874d14e095")
+	)
+	(no_connect
+		(at 389.89 191.77)
+		(uuid "147f8387-bf1c-4422-8453-2253a9f71ae2")
+	)
+	(no_connect
+		(at 389.89 204.47)
+		(uuid "3195850c-7323-4991-81d3-d98e3709c0c2")
+	)
+	(no_connect
+		(at 389.89 207.01)
+		(uuid "3209da49-deef-4f01-b4a0-b52c392cf346")
+	)
+	(no_connect
+		(at 389.89 189.23)
+		(uuid "354bfc21-4b79-44e2-9f52-e1f9c2e31ed3")
+	)
+	(no_connect
 		(at 96.52 149.86)
 		(uuid "35e51033-d258-4051-b455-9175e25df571")
+	)
+	(no_connect
+		(at 389.89 217.17)
+		(uuid "4f4b37af-ec0a-46f7-82fd-4c8931781dfb")
+	)
+	(no_connect
+		(at 389.89 179.07)
+		(uuid "d70b0352-dc03-43b6-870e-d41bc418771b")
 	)
 	(wire
 		(pts
@@ -5743,16 +5867,6 @@
 			(type default)
 		)
 		(uuid "059bc801-b5f7-4edc-91be-e4d5d0a3f4a7")
-	)
-	(wire
-		(pts
-			(xy 383.54 195.58) (xy 388.62 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c11f33-b03c-49b7-9fd4-6bc43a91abff")
 	)
 	(wire
 		(pts
@@ -5856,6 +5970,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 186.69) (xy 386.08 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f59fcd5-3452-43d0-904c-3d067ed74676")
+	)
+	(wire
+		(pts
 			(xy 172.72 139.7) (xy 172.72 142.24)
 		)
 		(stroke
@@ -5863,6 +5987,16 @@
 			(type default)
 		)
 		(uuid "106a2dfa-c2cc-49fa-8831-41ece30c7b61")
+	)
+	(wire
+		(pts
+			(xy 386.08 186.69) (xy 389.89 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113d8f75-74ca-4613-a842-1a8ecb19fe2b")
 	)
 	(wire
 		(pts
@@ -6276,6 +6410,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 209.55) (xy 383.54 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374fad15-b858-45c9-9201-643f1fae6aa5")
+	)
+	(wire
+		(pts
 			(xy 255.27 119.38) (xy 274.32 119.38)
 		)
 		(stroke
@@ -6376,16 +6520,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 209.55) (xy 386.08 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6e934f-9bbf-4786-8657-0f164c168866")
-	)
-	(wire
-		(pts
 			(xy 342.9 171.45) (xy 347.98 171.45)
 		)
 		(stroke
@@ -6473,16 +6607,6 @@
 			(type default)
 		)
 		(uuid "4ad5d779-9023-4d00-899b-64f255165618")
-	)
-	(wire
-		(pts
-			(xy 383.54 212.09) (xy 383.54 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b01f769-1a3f-46dd-8931-05eaaacab945")
 	)
 	(wire
 		(pts
@@ -6796,13 +6920,13 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 186.69) (xy 388.62 195.58)
+			(xy 383.54 209.55) (xy 383.54 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63afeff6-8007-42ae-95fe-805d5eafa6fb")
+		(uuid "641b1ed6-9800-4044-b449-d7616f47ceb8")
 	)
 	(wire
 		(pts
@@ -6873,6 +6997,16 @@
 			(type default)
 		)
 		(uuid "6aec8bcc-378b-4a68-b3bb-b31943036e2f")
+	)
+	(wire
+		(pts
+			(xy 383.54 184.15) (xy 389.89 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b20bc25-9267-4da9-a37a-1b6940ed7743")
 	)
 	(wire
 		(pts
@@ -7036,6 +7170,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 180.34) (xy 386.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecf74e1-078e-4aab-8d30-7cab09630e92")
+	)
+	(wire
+		(pts
 			(xy 281.94 93.98) (xy 281.94 90.17)
 		)
 		(stroke
@@ -7093,16 +7237,6 @@
 			(type default)
 		)
 		(uuid "86eea464-78bb-4a06-9120-99136d4b6b1f")
-	)
-	(wire
-		(pts
-			(xy 388.62 180.34) (xy 388.62 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883c57e3-7395-40ab-8331-52dbab46ac31")
 	)
 	(wire
 		(pts
@@ -7183,16 +7317,6 @@
 			(type default)
 		)
 		(uuid "9271bcd0-d4a0-4c48-a91a-934ba22dd370")
-	)
-	(wire
-		(pts
-			(xy 386.08 180.34) (xy 388.62 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92880260-3769-4a72-b2a8-920b93fe7b44")
 	)
 	(wire
 		(pts
@@ -7386,16 +7510,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 212.09) (xy 383.54 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ff0e84-fef5-4fa3-b047-11ad67338a73")
-	)
-	(wire
-		(pts
 			(xy 299.72 123.19) (xy 299.72 121.92)
 		)
 		(stroke
@@ -7556,16 +7670,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 180.34) (xy 386.08 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49d672e-6345-4512-ac30-d904c85050aa")
-	)
-	(wire
-		(pts
 			(xy 40.64 102.87) (xy 43.18 102.87)
 		)
 		(stroke
@@ -7616,6 +7720,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 212.09) (xy 389.89 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2c0432-3d48-4f1b-9e22-9686ad42518e")
+	)
+	(wire
+		(pts
 			(xy 92.71 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -7663,6 +7777,16 @@
 			(type default)
 		)
 		(uuid "c14e2a5f-3949-4429-bc9e-dfcbcdecc8ad")
+	)
+	(wire
+		(pts
+			(xy 383.54 195.58) (xy 383.54 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2213a76-176e-40b1-9aa1-abae692cfead")
 	)
 	(wire
 		(pts
@@ -8364,16 +8488,6 @@
 		)
 		(uuid "39ff4755-21f6-4e2a-bbc1-69b16f8e329a")
 	)
-	(label "RING"
-		(at 383.54 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e0442c2-93c7-45b3-989b-d63ef4811060")
-	)
 	(label "DTX"
 		(at 184.15 95.25 0)
 		(effects
@@ -8383,16 +8497,6 @@
 			(justify left bottom)
 		)
 		(uuid "478cb398-eb23-43d3-bfb6-bd431dcfbf7b")
-	)
-	(label "TIP"
-		(at 384.81 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "493afaa0-ff46-46b9-a3d0-10bdf1158c78")
 	)
 	(label "QE2"
 		(at 325.12 120.65 0)
@@ -8706,7 +8810,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "BLM18AG601SN1"
@@ -8715,7 +8821,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603 / 1608 metric"
@@ -8724,7 +8832,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8840,7 +8950,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMBTA42"
@@ -8849,7 +8961,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOT-23"
@@ -8858,7 +8972,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -8949,7 +9065,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -8958,7 +9076,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -8967,7 +9087,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9059,7 +9181,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9068,7 +9192,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -9077,7 +9203,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9244,7 +9372,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9253,7 +9383,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -9262,7 +9394,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9353,7 +9487,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "WS2812B-2020"
@@ -9362,7 +9498,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "PLCC-4, 2.0 x 2.0 mm"
@@ -9371,7 +9509,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -9544,7 +9684,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9553,7 +9695,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -9562,7 +9706,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9652,7 +9798,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "VERIFY"
@@ -9661,7 +9809,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "VERIFY"
@@ -9670,7 +9820,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -9766,7 +9918,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9775,7 +9929,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -9784,7 +9940,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9874,7 +10032,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9883,7 +10043,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -9892,7 +10054,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9983,7 +10147,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -9992,7 +10158,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0805_2012Metric"
@@ -10001,7 +10169,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10090,7 +10260,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -10099,7 +10271,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -10108,7 +10282,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10198,7 +10374,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -10207,7 +10385,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -10216,7 +10396,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10384,7 +10566,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -10393,7 +10577,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -10402,7 +10588,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10571,7 +10759,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -10580,7 +10770,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0805_2012Metric"
@@ -10589,7 +10781,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10602,113 +10796,6 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:RJ11")
-		(at 398.78 186.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3861eacf-20d9-4c54-b5c0-4694626b0d71")
-		(property "Reference" "J1"
-			(at 398.78 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ11"
-			(at 398.78 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
-			(at 398.78 186.055 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 186.055 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RJ11 LINE connector; exact mechanically compatible part must be selected"
-			(at 398.78 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(property "MPN" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(property "Package" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(pin "2"
-			(uuid "9f615745-398b-4ec7-8b7e-ead3d46f7e40")
-		)
-		(pin "1"
-			(uuid "68c43280-b305-4a35-822f-b973d2699797")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10787,7 +10874,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -10796,7 +10885,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -10805,7 +10896,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10895,7 +10988,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "TPS62162DSG"
@@ -10904,7 +10999,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "WSON-8 DSG + exposed pad"
@@ -10913,7 +11010,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -11022,7 +11121,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "P3100SBL"
@@ -11031,7 +11132,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "DO-214AA (SMB)"
@@ -11040,7 +11143,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11265,7 +11370,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "VLS3012HBX-2R2M-N"
@@ -11274,7 +11381,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11365,7 +11474,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "ESP32-C3-WROOM-02"
@@ -11374,7 +11485,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "Module with integrated PCB antenna"
@@ -11383,7 +11496,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -11548,7 +11663,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMBTA42"
@@ -11557,7 +11674,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOT-23"
@@ -11566,7 +11685,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -11661,7 +11782,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -11670,7 +11793,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -11679,7 +11804,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11770,7 +11897,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "BLM18AG601SN1"
@@ -11779,7 +11908,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603 / 1608 metric"
@@ -11788,7 +11919,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11879,7 +12012,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -11888,7 +12023,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -11897,7 +12034,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11988,7 +12127,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GA342QR7GF681KW01L"
@@ -11997,7 +12138,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1808 / 4520 metric"
@@ -12006,7 +12149,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12097,7 +12242,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "BLM18AG601SN1"
@@ -12106,7 +12253,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603 / 1608 metric"
@@ -12115,7 +12264,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12205,7 +12356,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -12214,7 +12367,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -12223,7 +12378,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12236,6 +12393,98 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:6P6C")
+		(at 400.05 212.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65cdb886-23e7-4a62-8e3f-c72b4d9e1a23")
+		(property "Reference" "J2"
+			(at 400.05 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6P6C"
+			(at 400.05 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
+			(at 400.05 211.455 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 211.455 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
+			(at 400.05 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91ef7db3-fd28-42c8-9865-b8d06351b514")
+		)
+		(pin "3"
+			(uuid "46379716-b196-4915-a51f-16bba1f57f8d")
+		)
+		(pin "2"
+			(uuid "d053d432-abd4-45ab-859c-d3550989752b")
+		)
+		(pin "4"
+			(uuid "5e51fff0-b399-4cd9-aa09-00ea4fab17b1")
+		)
+		(pin "6"
+			(uuid "6b206bb0-a13f-479c-9cdd-7bf7af5fc487")
+		)
+		(pin "5"
+			(uuid "d3e57c28-c0b7-414d-8503-b3ce73e8e42f")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12314,7 +12563,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -12323,7 +12574,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -12332,7 +12585,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12422,7 +12677,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -12431,7 +12688,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -12440,7 +12699,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12530,7 +12791,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -12539,7 +12802,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -12548,7 +12813,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12638,7 +12905,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "SI3019-F-FM"
@@ -12647,7 +12916,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "QFN-20 + exposed IGND pad"
@@ -12656,7 +12927,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "20"
@@ -12806,7 +13079,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -12815,7 +13090,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -12824,7 +13101,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12938,7 +13217,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMBTA92"
@@ -12947,7 +13228,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOT-23"
@@ -12956,7 +13239,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13048,7 +13333,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -13057,7 +13344,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -13066,7 +13355,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13236,7 +13527,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -13245,7 +13538,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -13254,7 +13549,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13346,7 +13643,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -13355,7 +13654,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -13364,7 +13665,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13480,7 +13783,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMBTA06"
@@ -13489,7 +13794,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOT-23"
@@ -13498,7 +13805,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13590,7 +13899,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "VERIFY"
@@ -13599,7 +13910,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "VERIFY"
@@ -13608,7 +13921,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "B6"
@@ -13738,7 +14053,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMSZ43T1G"
@@ -13747,7 +14064,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOD-123"
@@ -13756,7 +14075,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13872,7 +14193,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "MMBTA06"
@@ -13881,7 +14204,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SOT-23"
@@ -13890,7 +14215,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13983,7 +14310,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GA342A1XGF330JW31L"
@@ -13992,7 +14321,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1808 / 4520 metric"
@@ -14001,7 +14332,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14093,7 +14426,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14102,7 +14437,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -14111,7 +14448,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14201,7 +14540,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14210,7 +14551,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14219,7 +14562,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14309,7 +14654,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14318,7 +14665,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14327,7 +14676,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14497,7 +14848,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14506,7 +14859,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14515,7 +14870,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14605,7 +14962,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14614,7 +14973,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14623,7 +14984,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14715,7 +15078,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14724,7 +15089,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14733,7 +15100,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14823,7 +15192,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14832,7 +15203,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14841,7 +15214,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14931,7 +15306,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -14940,7 +15317,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -14949,7 +15328,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15040,7 +15421,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GA342QR7GF681KW01L"
@@ -15049,7 +15432,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1808 / 4520 metric"
@@ -15058,7 +15443,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15149,7 +15536,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GA342A1XGF330JW31L"
@@ -15158,7 +15547,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1808 / 4520 metric"
@@ -15167,7 +15558,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15257,7 +15650,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -15266,7 +15661,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -15275,7 +15672,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15372,113 +15771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ11")
-		(at 398.78 212.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c25d0460-ee0b-45b0-91c9-51e6ce11d15c")
-		(property "Reference" "J2"
-			(at 398.78 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ11"
-			(at 398.78 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
-			(at 398.78 211.455 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 211.455 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RJ11 PHONE connector; exact mechanically compatible part must be selected"
-			(at 398.78 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(property "MPN" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(property "Package" "VERIFY"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font (size 1.27 1.27))
-			)
-		)
-		(pin "2"
-			(uuid "b5f3cc40-cfd1-41af-b5d2-317e326b7261")
-		)
-		(pin "1"
-			(uuid "5bb6553b-07f1-445a-bff2-a5a674666a14")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 137.16 116.84 0)
 		(unit 1)
@@ -15549,7 +15841,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "VERIFY"
@@ -15558,7 +15852,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "VERIFY"
@@ -15567,7 +15863,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15580,6 +15878,98 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:6P6C")
+		(at 400.05 186.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0f7b159-8c64-4a30-b385-72eda588109c")
+		(property "Reference" "J1"
+			(at 400.05 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6P6C"
+			(at 400.05 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
+			(at 400.05 186.055 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 186.055 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
+			(at 400.05 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e56c038f-58f0-41ff-bab1-5cc64f331dc0")
+		)
+		(pin "3"
+			(uuid "9631041d-0549-4644-8b80-9a642868054d")
+		)
+		(pin "2"
+			(uuid "63975e46-241b-4212-b9bc-511a651a3337")
+		)
+		(pin "4"
+			(uuid "f958033b-808c-4525-8aa7-bd6fa6ebb639")
+		)
+		(pin "6"
+			(uuid "713b5eef-65a3-4351-83a6-f9af099e2008")
+		)
+		(pin "5"
+			(uuid "4030f3ef-e8ac-433c-acb4-1a952edbae42")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15737,7 +16127,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -15746,7 +16138,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -15755,7 +16149,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15846,7 +16242,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "EEE-1HA010NR"
@@ -15855,7 +16253,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "SMD aluminum electrolytic, 4 x 5.4 mm"
@@ -15864,7 +16264,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15954,7 +16356,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -15963,7 +16367,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -15972,7 +16378,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16063,7 +16471,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16072,7 +16482,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -16081,7 +16493,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16172,7 +16586,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16181,7 +16597,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -16190,7 +16608,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16281,7 +16701,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16290,7 +16712,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -16299,7 +16723,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16466,7 +16892,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16475,7 +16903,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -16484,7 +16914,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16574,7 +17006,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "SI3050-E1-FM"
@@ -16583,7 +17017,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "QFN-24 + exposed GND pad"
@@ -16592,7 +17028,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "15"
@@ -16752,7 +17190,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "BLM18AG601SN1"
@@ -16761,7 +17201,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603 / 1608 metric"
@@ -16770,7 +17212,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16861,7 +17305,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16870,7 +17316,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "0603_1608Metric"
@@ -16879,7 +17327,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16971,7 +17421,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "MPN" "GENERIC"
@@ -16980,7 +17432,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Package" "1206_3216Metric"
@@ -16989,7 +17443,9 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font (size 1.27 1.27))
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
