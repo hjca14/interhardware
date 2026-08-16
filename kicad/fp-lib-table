@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "interbridge_telephony") (type "KiCad") (uri "${KIPRJMOD}/interbridge_telephony.pretty") (options "") (descr ""))
+)
