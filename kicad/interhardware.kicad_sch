@@ -5,303 +5,6 @@
 	(uuid "54dcf537-a517-4a60-ba81-f3f59fcd6b9a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:6P6C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "6P6C"
-				(at 2.54 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "6P6C RJ socket connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "6P6C* RJ12* RJ18* RJ25*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "6P6C_0_1"
-				(polyline
-					(pts
-						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0.635) (xy -5.08 0.635) (xy -5.08 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -0.635) (xy -5.08 -0.635) (xy -5.08 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
-						(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
-						(xy -6.35 -4.445) (xy -6.35 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 4.445) (xy -6.35 4.445) (xy -6.35 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 10.16)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "6P6C_1_1"
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -3851,6 +3554,435 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "interbridge_telephony:RJE0166002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -7.62 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RJE0166002"
+				(at -7.62 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RJE0166002:AMPHENOL_RJE0166002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Modular Jack - Right Angle, Input Output Connectors 6P6C, Without Shield."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Amphenol ICC (Commercial Products)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "12.75mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "RJE0166002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RJE0166002_0_0"
+				(rectangle
+					(start -7.62 -17.78)
+					(end 7.62 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 15.24 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "4_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "5_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "5_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "6_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "6_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "interbridge_telephony:SI3019-F-FM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5451,6 +5583,12 @@
 		(uuid "08b17977-cafd-4ac8-9f49-74fbd48b9471")
 	)
 	(junction
+		(at 383.54 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c54c148-12a3-4108-b58e-aa6a4e3bae71")
+	)
+	(junction
 		(at 304.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5503,6 +5641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26d69f8c-a167-46a2-be73-0f27dd647b44")
+	)
+	(junction
+		(at 386.08 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2706a85b-d7e3-45b1-9a91-abf8530ede6f")
 	)
 	(junction
 		(at 274.32 82.55)
@@ -5733,22 +5877,10 @@
 		(uuid "c8d849e7-b695-4801-9aac-934bce746e42")
 	)
 	(junction
-		(at 383.54 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc2ea0ab-12bd-46c2-8dfd-eb12fe254427")
-	)
-	(junction
 		(at 279.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1e8688b-fcbf-4270-b8b3-3a9838a59a68")
-	)
-	(junction
-		(at 386.08 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d273734d-7a78-46d9-87f6-950f23707942")
 	)
 	(junction
 		(at 377.19 195.58)
@@ -5793,40 +5925,8 @@
 		(uuid "f6f6aeca-80ed-45db-9b52-88254c1d5b94")
 	)
 	(no_connect
-		(at 389.89 181.61)
-		(uuid "00eb0975-7246-4716-bf5d-92a02958ffc4")
-	)
-	(no_connect
-		(at 389.89 214.63)
-		(uuid "03a1973e-e7bd-4f91-a88a-43874d14e095")
-	)
-	(no_connect
-		(at 389.89 191.77)
-		(uuid "147f8387-bf1c-4422-8453-2253a9f71ae2")
-	)
-	(no_connect
-		(at 389.89 204.47)
-		(uuid "3195850c-7323-4991-81d3-d98e3709c0c2")
-	)
-	(no_connect
-		(at 389.89 207.01)
-		(uuid "3209da49-deef-4f01-b4a0-b52c392cf346")
-	)
-	(no_connect
-		(at 389.89 189.23)
-		(uuid "354bfc21-4b79-44e2-9f52-e1f9c2e31ed3")
-	)
-	(no_connect
 		(at 96.52 149.86)
 		(uuid "35e51033-d258-4051-b455-9175e25df571")
-	)
-	(no_connect
-		(at 389.89 217.17)
-		(uuid "4f4b37af-ec0a-46f7-82fd-4c8931781dfb")
-	)
-	(no_connect
-		(at 389.89 179.07)
-		(uuid "d70b0352-dc03-43b6-870e-d41bc418771b")
 	)
 	(wire
 		(pts
@@ -5867,6 +5967,16 @@
 			(type default)
 		)
 		(uuid "059bc801-b5f7-4edc-91be-e4d5d0a3f4a7")
+	)
+	(wire
+		(pts
+			(xy 383.54 201.93) (xy 383.54 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06509078-3101-4ef1-91fe-ff3661c29cc0")
 	)
 	(wire
 		(pts
@@ -5950,6 +6060,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 186.69) (xy 387.35 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcac072-37ca-41e8-97df-4c788f4b2bb1")
+	)
+	(wire
+		(pts
 			(xy 353.06 147.32) (xy 353.06 140.97)
 		)
 		(stroke
@@ -5970,16 +6090,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 186.69) (xy 386.08 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f59fcd5-3452-43d0-904c-3d067ed74676")
-	)
-	(wire
-		(pts
 			(xy 172.72 139.7) (xy 172.72 142.24)
 		)
 		(stroke
@@ -5987,16 +6097,6 @@
 			(type default)
 		)
 		(uuid "106a2dfa-c2cc-49fa-8831-41ece30c7b61")
-	)
-	(wire
-		(pts
-			(xy 386.08 186.69) (xy 389.89 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113d8f75-74ca-4613-a842-1a8ecb19fe2b")
 	)
 	(wire
 		(pts
@@ -6290,6 +6390,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 180.34) (xy 386.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddcc842-eb73-4fce-b710-54db0d3d0695")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 62.23 35.56)
 		)
 		(stroke
@@ -6407,16 +6517,6 @@
 			(type default)
 		)
 		(uuid "369330c2-d74b-44ba-a2e5-367b40fae5c0")
-	)
-	(wire
-		(pts
-			(xy 389.89 209.55) (xy 383.54 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374fad15-b858-45c9-9201-643f1fae6aa5")
 	)
 	(wire
 		(pts
@@ -6800,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 184.15) (xy 383.54 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5857a78b-c2b8-4793-9266-e0fc72df78c8")
+	)
+	(wire
+		(pts
 			(xy 287.02 171.45) (xy 292.1 171.45)
 		)
 		(stroke
@@ -6920,16 +7030,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 209.55) (xy 383.54 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "641b1ed6-9800-4044-b449-d7616f47ceb8")
-	)
-	(wire
-		(pts
 			(xy 45.72 87.63) (xy 48.26 87.63)
 		)
 		(stroke
@@ -6997,16 +7097,6 @@
 			(type default)
 		)
 		(uuid "6aec8bcc-378b-4a68-b3bb-b31943036e2f")
-	)
-	(wire
-		(pts
-			(xy 383.54 184.15) (xy 389.89 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b20bc25-9267-4da9-a37a-1b6940ed7743")
 	)
 	(wire
 		(pts
@@ -7110,6 +7200,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 201.93) (xy 383.54 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759efe9d-029b-4b6e-b8f9-bc07c318da70")
+	)
+	(wire
+		(pts
 			(xy 369.57 203.2) (xy 377.19 203.2)
 		)
 		(stroke
@@ -7170,16 +7270,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 180.34) (xy 386.08 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecf74e1-078e-4aab-8d30-7cab09630e92")
-	)
-	(wire
-		(pts
 			(xy 281.94 93.98) (xy 281.94 90.17)
 		)
 		(stroke
@@ -7207,6 +7297,16 @@
 			(type default)
 		)
 		(uuid "80e5197f-d198-47f3-82f9-221d734fbc33")
+	)
+	(wire
+		(pts
+			(xy 386.08 186.69) (xy 386.08 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824162b4-87cf-4cc3-a72d-749f5e0b24af")
 	)
 	(wire
 		(pts
@@ -7720,16 +7820,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 212.09) (xy 389.89 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2c0432-3d48-4f1b-9e22-9686ad42518e")
-	)
-	(wire
-		(pts
 			(xy 92.71 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -7777,16 +7867,6 @@
 			(type default)
 		)
 		(uuid "c14e2a5f-3949-4429-bc9e-dfcbcdecc8ad")
-	)
-	(wire
-		(pts
-			(xy 383.54 195.58) (xy 383.54 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2213a76-176e-40b1-9aa1-abae692cfead")
 	)
 	(wire
 		(pts
@@ -7960,6 +8040,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 184.15) (xy 387.35 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13290ae-2134-4e3e-bec2-cd3a173cbe4c")
+	)
+	(wire
+		(pts
 			(xy 375.92 82.55) (xy 375.92 104.14)
 		)
 		(stroke
@@ -8007,6 +8097,16 @@
 			(type default)
 		)
 		(uuid "d486d6a9-2463-439f-bf88-f9bf569a8237")
+	)
+	(wire
+		(pts
+			(xy 387.35 204.47) (xy 386.08 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d579f461-f5a1-4b8b-8e28-b90588f5ea05")
 	)
 	(wire
 		(pts
@@ -12399,98 +12499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:6P6C")
-		(at 400.05 212.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65cdb886-23e7-4a62-8e3f-c72b4d9e1a23")
-		(property "Reference" "J2"
-			(at 400.05 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6P6C"
-			(at 400.05 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
-			(at 400.05 211.455 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 211.455 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
-			(at 400.05 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91ef7db3-fd28-42c8-9865-b8d06351b514")
-		)
-		(pin "3"
-			(uuid "46379716-b196-4915-a51f-16bba1f57f8d")
-		)
-		(pin "2"
-			(uuid "d053d432-abd4-45ab-859c-d3550989752b")
-		)
-		(pin "4"
-			(uuid "5e51fff0-b399-4cd9-aa09-00ea4fab17b1")
-		)
-		(pin "6"
-			(uuid "6b206bb0-a13f-479c-9cdd-7bf7af5fc487")
-		)
-		(pin "5"
-			(uuid "d3e57c28-c0b7-414d-8503-b3ce73e8e42f")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 162.56 67.31 90)
 		(mirror x)
@@ -13975,6 +13983,252 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "interbridge_telephony:RJE0166002")
+		(at 400.05 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95273e5e-9b53-4652-8dcd-3617e9aadda3")
+		(property "Reference" "J1"
+			(at 408.94 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RJE0166002"
+			(at 408.94 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RJE0166002:AMPHENOL_RJE0166002"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack - Right Angle, Input Output Connectors 6P6C, Without Shield."
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Amphenol ICC (Commercial Products)"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.75mm"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=eda"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=snap"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RJE0166002"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "76aec3e5-d127-4f8b-86c1-3dc11d919011")
+		)
+		(pin "2_2"
+			(uuid "b130d8fe-c4e0-4cd9-9b2b-24aa58bfa68f")
+		)
+		(pin "4_1"
+			(uuid "f3db8c3e-1bbb-450b-9a10-edb280ecad7b")
+		)
+		(pin "5_1"
+			(uuid "646c0466-4fa5-4d4a-a3d4-ce61c102cb7d")
+		)
+		(pin "5_2"
+			(uuid "8500be5c-361f-43ff-86dc-dd47929885dc")
+		)
+		(pin "3_2"
+			(uuid "a325254d-24b5-4e80-b8d9-f2a8bc4f43e6")
+		)
+		(pin "1_1"
+			(uuid "5e6a45e5-3fa0-4dfc-8c78-acf5d313404b")
+		)
+		(pin "3_1"
+			(uuid "c89632ce-d194-4ba4-8b71-27049e96e03e")
+		)
+		(pin "4_2"
+			(uuid "e9bed9be-b8d5-4f6d-a17c-d57d654437eb")
+		)
+		(pin "6_1"
+			(uuid "c47934f6-4cbf-4dd8-b455-8a52ee84d753")
+		)
+		(pin "6_2"
+			(uuid "1e05a67c-9ca8-459a-9d93-caa4eae93457")
+		)
+		(pin "2_1"
+			(uuid "683495d0-e8c5-449c-ac5e-c7df0666ae5b")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15878,98 +16132,6 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:6P6C")
-		(at 400.05 186.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0f7b159-8c64-4a30-b385-72eda588109c")
-		(property "Reference" "J1"
-			(at 400.05 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6P6C"
-			(at 400.05 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
-			(at 400.05 186.055 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 186.055 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
-			(at 400.05 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e56c038f-58f0-41ff-bab1-5cc64f331dc0")
-		)
-		(pin "3"
-			(uuid "9631041d-0549-4644-8b80-9a642868054d")
-		)
-		(pin "2"
-			(uuid "63975e46-241b-4212-b9bc-511a651a3337")
-		)
-		(pin "4"
-			(uuid "f958033b-808c-4525-8aa7-bd6fa6ebb639")
-		)
-		(pin "6"
-			(uuid "713b5eef-65a3-4351-83a6-f9af099e2008")
-		)
-		(pin "5"
-			(uuid "4030f3ef-e8ac-433c-acb4-1a952edbae42")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
