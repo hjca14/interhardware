@@ -8689,7 +8689,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric"
 			(at 339.09 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8698,6 +8698,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "BLM18AG601SN1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603 / 1608 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -8774,7 +8801,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" "MMBTA42 NPN high-voltage transistor; manufacturer TBD"
 			(at 358.14 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8805,6 +8832,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "TBD"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMBTA42"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "3"
@@ -8889,6 +8943,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "bd9d944c-52f0-49ee-9ee7-abcbfad5fd62")
 		)
@@ -8970,6 +9051,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -9130,6 +9238,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "f402e63a-75af-4c6a-b3dd-7c574b5efb7e")
 		)
@@ -9201,7 +9336,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "Individually addressable RGB LED, 2.0 x 2.0 mm"
 			(at 96.52 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9210,6 +9345,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "WS2812B-2020"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "PLCC-4, 2.0 x 2.0 mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "4"
@@ -9376,6 +9538,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "129bee86-d1d6-4aac-aeff-e00cf9091a94")
 		)
@@ -9446,7 +9635,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridge Rectifier, 280V Vrms, 1.5A If, SMDIP-4"
+		(property "Description" "DF04S bridge rectifier; manufacturer and exact ordering code require verification"
 			(at 321.31 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9455,6 +9644,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "3"
@@ -9544,6 +9760,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "419fd901-53ab-4c0a-96e2-f93ddfb031de")
 		)
@@ -9623,6 +9866,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -9707,6 +9977,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0805_2012Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "6d06d2e2-a2d9-403c-b854-1cafb72e097b")
 		)
@@ -9785,6 +10082,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -9866,6 +10190,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -10025,6 +10376,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -10187,6 +10565,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0805_2012Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "b4bc2b36-82e3-4110-9f38-08526292e6f6")
 		)
@@ -10256,7 +10661,7 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P2C (6 positions 2 connected)"
+		(property "Description" "RJ11 LINE connector; exact mechanically compatible part must be selected"
 			(at 398.78 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10265,6 +10670,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "2"
@@ -10349,6 +10781,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "a1032334-02f0-4971-be2c-abb73fd15553")
 		)
@@ -10419,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8"
+		(property "Description" "3 V to 17 V, 1 A step-down converter, fixed 3.3 V, WSON-8 DSG with exposed pad"
 			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10428,6 +10887,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "TPS62162DSG"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "WSON-8 DSG + exposed pad"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "3"
@@ -10519,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Description" "EVB page 3; nets: LINE_TIP, LINE_RING"
+		(property "Description" "Bidirectional SIDACtor surge protector, 275 V, DO-214AA"
 			(at 377.19 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10528,6 +11014,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "P3100SBL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "DO-214AA (SMB)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -10568,7 +11081,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VLS3012HBX-2R2M-N"
+		(property "Value" "2.2uH"
 			(at 57.15 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,7 +11092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VLS3012HBX-2R2M-N:IND_VLS3012HBX-2R2M-N"
+		(property "Footprint" "interbridge_telephony:IND_VLS3012HBX-2R2M-N"
 			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10602,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2 µH Shielded Drum Core, Wirewound Inductor 2.84 A 106mOhm Max 1212 (3030 Metric)"
+		(property "Description" "2.2 uH shielded power inductor, TDK VLS3012HBX series"
 			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10638,7 +11151,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "VLS3012 SMD"
 			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10746,6 +11259,24 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VLS3012HBX-2R2M-N"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "2"
 			(uuid "6b347ccf-f352-48f5-b323-ec5d6beeb1ed")
 		)
@@ -10773,7 +11304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a937b42-dbd6-4e73-9b49-c912e21a973b")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 110.0933 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +11348,7 @@
 				)
 			)
 		)
-		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
+		(property "Description" "ESP32-C3 Wi-Fi/BLE module with integrated PCB antenna; not -02U"
 			(at 107.95 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -10826,6 +11357,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "ESP32-C3-WROOM-02"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "Module with integrated PCB antenna"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "8"
@@ -10888,7 +11446,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10951,7 +11509,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+		(property "Description" "MMBTA42 NPN high-voltage transistor; manufacturer TBD"
 			(at 351.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10982,6 +11540,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "TBD"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMBTA42"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "3"
@@ -11070,6 +11655,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "e2d3ba0d-8ced-46a2-aaaa-d8f554d4ae25")
 		)
@@ -11141,7 +11753,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric"
 			(at 365.76 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -11150,6 +11762,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "BLM18AG601SN1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603 / 1608 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -11234,6 +11873,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "0c8ac2c9-1732-4ade-bdb9-b946baaac1d3")
 		)
@@ -11305,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "680 pF, X7R, X1/Y2 safety capacitor, 250 VAC, package 1808"
 			(at 358.14 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -11314,6 +11980,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GA342QR7GF681KW01L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1808 / 4520 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -11387,7 +12080,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric"
 			(at 339.09 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -11396,6 +12089,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "BLM18AG601SN1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603 / 1608 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -11477,6 +12197,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -11561,6 +12308,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "3803b13f-3e0d-439c-b051-a9d1f538d55b")
 		)
@@ -11640,6 +12414,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -11723,6 +12524,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "372794de-58c0-46aa-bd24-e8b9532edd56")
 		)
@@ -11761,7 +12589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SI3019-F-FM"
 			(at 238.76 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11782,7 +12610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file://C:\\Users\\hjca1\\KiCad\\interhardware\\docs\\reference-designs\\Si3050-11-18-19.pdf"
+		(property "Datasheet" "docs/reference-designs/Si3050-11-18-19.pdf"
 			(at 238.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11793,7 +12621,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ISOmodem line-side DAA IC, QFN-20 with exposed IGND pad"
 			(at 238.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11802,6 +12630,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Skyworks Solutions"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "SI3019-F-FM"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "QFN-20 + exposed IGND pad"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "20"
@@ -11945,6 +12800,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "35fbf8af-39b9-4a2f-b51a-0ea67e9d12f8")
 		)
@@ -12017,7 +12899,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, SOT-23"
+		(property "Description" "MMBTA92 PNP high-voltage transistor; manufacturer TBD"
 			(at 360.68 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12048,6 +12930,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "TBD"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMBTA92"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "3"
@@ -12131,6 +13040,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -12294,6 +13230,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "0478f4a6-aefe-4790-b6fe-c5081b6fbec7")
 		)
@@ -12377,6 +13340,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "ca707461-32d5-4924-a3a3-d1b1ff4463fc")
 		)
@@ -12451,7 +13441,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 80V Vce, general purpose NPN"
+		(property "Description" "MMBTA06 NPN transistor; manufacturer TBD"
 			(at 322.58 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12482,6 +13472,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "TBD"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMBTA06"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "2"
@@ -12556,7 +13573,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB-C USB 2.0 receptacle; verify exact GCT USB4105 suffix and mechanics"
 			(at 25.4 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12565,6 +13582,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "B6"
@@ -12677,7 +13721,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "43 V, 500 mW Zener diode"
 			(at 337.82 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12686,6 +13730,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMSZ43T1G"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOD-123"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -12762,7 +13833,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.5A Ic, 80V Vce, general purpose NPN"
+		(property "Description" "MMBTA06 NPN transistor; manufacturer TBD"
 			(at 302.26 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12793,6 +13864,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "TBD"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "MMBTA06"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "2"
@@ -12868,7 +13966,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "33 pF, X1/Y2 safety capacitor, 250 VAC, package 1808"
 			(at 210.82 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12877,6 +13975,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GA342A1XGF330JW31L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1808 / 4520 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -12962,6 +14087,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "d202aa39-f04f-4ef8-9026-2fbf6831aacc")
 		)
@@ -13043,6 +14195,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "50014d8b-01e6-4de0-98c9-4403585424fb")
 		)
@@ -13122,6 +14301,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -13285,6 +14491,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "27fd22e6-8a3b-4deb-a60b-49fad7d5935e")
 		)
@@ -13364,6 +14597,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -13449,6 +14709,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "fcacd990-080b-4f23-9e5e-3e5980f63785")
 		)
@@ -13528,6 +14815,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -13611,6 +14925,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "60ff2444-5f84-476d-b1a1-d7248bcca240")
 		)
@@ -13682,7 +15023,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "680 pF, X7R, X1/Y2 safety capacitor, 250 VAC, package 1808"
 			(at 347.98 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -13691,6 +15032,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GA342QR7GF681KW01L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1808 / 4520 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -13764,7 +15132,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "33 pF, X1/Y2 safety capacitor, 250 VAC, package 1808"
 			(at 210.82 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13773,6 +15141,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GA342A1XGF330JW31L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1808 / 4520 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -13854,6 +15249,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -14003,7 +15425,7 @@
 				)
 			)
 		)
-		(property "Description" "RJ connector, 6P2C (6 positions 2 connected)"
+		(property "Description" "RJ11 PHONE connector; exact mechanically compatible part must be selected"
 			(at 398.78 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14012,6 +15434,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "2"
@@ -14083,7 +15532,7 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Normally-open tactile switch; symbol/footprint family mismatch requires verification"
 			(at 137.16 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14092,6 +15541,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "VERIFY"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "2"
@@ -14255,6 +15731,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "219cf44d-282e-4e66-a39f-317a0154d6a1")
 		)
@@ -14326,7 +15829,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 uF, 50 V SMD aluminum electrolytic capacitor"
 			(at 274.32 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14335,6 +15838,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "EEE-1HA010NR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "SMD aluminum electrolytic, 4 x 5.4 mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -14416,6 +15946,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -14500,6 +16057,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "ad31222f-78d2-4832-b0d2-c4bc08033e79")
 		)
@@ -14582,6 +16166,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "4b615353-38cf-40fb-8212-c7583d086859")
 		)
@@ -14662,6 +16273,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -14822,6 +16460,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "86568310-dfcc-4226-8197-21e3bc61b07d")
 		)
@@ -14860,7 +16525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SI3050-E1-FM"
 			(at 165.1 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +16546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file://C:\\Users\\hjca1\\KiCad\\interhardware\\docs\\reference-designs\\Si3050-11-18-19.pdf"
+		(property "Datasheet" "docs/reference-designs/Si3050-11-18-19.pdf"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14892,7 +16557,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ISOmodem system-side DAA IC, QFN-24 with exposed GND pad"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14901,6 +16566,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Skyworks Solutions"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "SI3050-E1-FM"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "QFN-24 + exposed GND pad"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "15"
@@ -15043,7 +16735,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric"
 			(at 365.76 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15052,6 +16744,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "BLM18AG601SN1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603 / 1608 metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
@@ -15136,6 +16855,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
 		(pin "1"
 			(uuid "1957b687-ad6f-437f-841f-1cc86e6a5094")
 		)
@@ -15217,6 +16963,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Package" "1206_3216Metric"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
 			)
 		)
 		(pin "1"
