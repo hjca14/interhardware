@@ -658,13 +658,18 @@
       {
         "filename": "interhardware.kicad_sch",
         "name": "interhardware",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-3,R7-9,R13-14,R33-36,R54,J2,D2-3,#PWR1-4,FB3-6,C2,C4,C7,C9-11,C32-33,C52,Q1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "54dcf537-a517-4a60-ba81-f3f59fcd6b9a",
+      "interhardware"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
