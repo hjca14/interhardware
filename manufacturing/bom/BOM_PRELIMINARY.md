@@ -16,10 +16,10 @@
 | U3 | 1 | ESP32-C3-WROOM-02 | Espressif Systems | ESP32-C3-WROOM-02 | Module with integrated PCB antenna | `RF_Module:ESP32-C3-WROOM-02` | No | READY | Metadata and footprint association audited. |
 | U4 | 1 | TPS62162DSG | Texas Instruments | TPS62162DSG | WSON-8 DSG + exposed pad | `Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias` | No | READY | Metadata and footprint association audited. |
 | Z1 | 1 | 43V | onsemi | MMSZ43T1G | SOD-123 | `Diode_SMD:D_SOD-123` | No | READY | Metadata and footprint association audited. |
-| D1 | 1 | DF04S | VERIFY | VERIFY | VERIFY | `Diode_SMD:Diode_Bridge_OnSemi_SDIP-4L` | No | VERIFY | DF04S is not a manufacturer-complete ordering code; approve exact source and package dimensions. |
-| J1 ,J2 | 2 | RJ11 | VERIFY | VERIFY | VERIFY | `Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal` | No | VERIFY | Generic 6P2C assignment; select and validate exact connector before manufacture. |
-| J4 | 1 | USB_C_Receptacle_USB2.0_14P | VERIFY | VERIFY | VERIFY | `Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal` | No | VERIFY | Footprint targets GCT USB4105 family; exact suffix/MPN and mechanical fit remain unconfirmed. |
-| SW1 | 1 | SW_Omron_B3FS | VERIFY | VERIFY | VERIFY | `Button_Switch_SMD:SW_SPST_B3U-1000P` | No | VERIFY | B3FS symbol/value versus B3U-1000P footprint is inconsistent; verify exact switch before transfer. |
+| D1 | 1 | DF04S | TBD | DF04S | SDIP-4L bridge rectifier | `Diode_SMD:Diode_Bridge_OnSemi_SDIP-4L` | No | READY | Four-terminal AC/AC/+/- symbol and matching four-pad DF04S package audited; manufacturer remains deliberately TBD. |
+| J1 | 1 | RJE0166002 | Amphenol Communications Solutions | RJE0166002 | Dual 6P6C right-angle THT | `RJE0166002:AMPHENOL_RJE0166002` | No | READY | One physical dual jack: jack `_1` = LINE and jack `_2` = PHONE; central contacts 3/4 carry RING/TIP, and contacts 1/2/5/6 are marked NC on each jack. |
+| J4 | 1 | USB4105-GF-A-060 | GCT | USB4105-GF-A-060 | USB Type-C, 16 contacts, horizontal/top mount | `Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal` | No | READY | USB4105 series; VBUS, GND, CC1/CC2, D+/D- and shell/mounting-pad mapping retained and audited. |
+| SW1 | 1 | B3U-1000P | Omron | B3U-1000P | SMD tactile switch | `Button_Switch_SMD:SW_SPST_B3U-1000P` | No | READY | Two-pin normally-open SPST symbol maps directly to the two-pad footprint; GPIO and pull-up are unchanged. |
 | C3 | 1 | 3.9nF | GENERIC | GENERIC | 1206_3216Metric | `Capacitor_SMD:C_1206_3216Metric` | No | TBD | Generic passive; value and assigned package are fixed, but rating/tolerance/dielectric and source require confirmation from the reference design. |
 | C5 ,C6 ,C50 ,C51 ,C52 ,C_LED | 6 | 0.1uF | GENERIC | GENERIC | 0603_1608Metric | `Capacitor_SMD:C_0603_1608Metric` | No | TBD | Generic passive; value and assigned package are fixed, but rating/tolerance/dielectric and source require confirmation from the reference design. |
 | C7 | 1 | 2.7nF | GENERIC | GENERIC | 0603_1608Metric | `Capacitor_SMD:C_0603_1608Metric` | No | TBD | Generic passive; value and assigned package are fixed, but rating/tolerance/dielectric and source require confirmation from the reference design. |
@@ -51,23 +51,22 @@
 
 | Status | Placed components | Meaning |
 |---|---:|---|
-| READY | 17 | Decided metadata and footprint association audited. |
-| VERIFY | 5 | Exact source/mechanical selection or a clear family mismatch remains. |
+| READY | 21 | Decided metadata and footprint association audited. |
+| VERIFY | 0 | Exact source/mechanical selection or a clear family mismatch remains. |
 | TBD | 44 | Generic passive/transistor source or ratings remain deliberately open. |
 | DNP | 0 | No placed symbol is marked DNP. |
 
-*Total: 66 physical components; 66 have footprints; 0 lack footprints; 3 use project-local custom footprints.*
+*Total: 65 physical components; 65 have footprints; 0 lack footprints; 4 use project-local custom footprints.*
 
 ## DNP / NI review
 
-R7 and R8 from the reference design are not present in this schematic. No placed symbol has KiCad `dnp yes`; therefore the assembled quantity is currently 66 and the DNP count is zero. No schematic component was removed during this audit.
+R7 and R8 from the reference design are not present in this schematic. No placed symbol has KiCad `dnp yes`; therefore the assembled quantity is currently 65 and the DNP count is zero. No schematic component was removed during this audit.
 
-## Remaining blockers before PCB transfer
+## Remaining blockers before PCB layout
 
-* Select exact mechanically compatible MPNs for J1/J2 (RJ11), J4 (USB-C), and SW1.
-* Resolve the SW1 `B3FS` symbol/value versus `B3U-1000P` footprint family inconsistency.
-* Select an exact manufacturer/orderable DF04S bridge and verify its land pattern.
-* Confirm the still-generic passive ratings/tolerances/dielectrics and transistor manufacturers against the controlled reference-design release.
-* Obtain controlled manufacturer land-pattern evidence for the release check of P3100SBL/DO-214AA; the present `D_SMB` assignment is dimensionally the correct package family but is not independently source-verified in this environment.
+* Run ERC locally with the project KiCad version; `kicad-cli` was unavailable in this environment.
+* Confirm board-edge placement and physical receptacle orientation against the enclosure before layout. The footprint drawing identifies `_1` as the left pad group and `_2` as the right pad group in top view; LINE and PHONE remain electrically isolated to their respective groups.
 
-**All placed components have footprints assigned.** This is not a declaration that the design is PCB-ready while the mechanical MPNs and ratings above remain unresolved.
+Generic passive MPNs and deliberately TBD transistor manufacturers are procurement items, not PCB-layout blockers.
+
+**All 65 placed physical components have footprints assigned. The schematic is ready for local ERC and initial PCB layout; this is not a production-ready or manufacturing-ready declaration.**
