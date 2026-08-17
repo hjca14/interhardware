@@ -1,6 +1,6 @@
 
 (footprint AMPHENOL_RJE0166002 (layer F.Cu) (tedit 6A822D35)
-  (descr "")
+  (descr "Amphenol RJE0166002 dual 6P6C right-angle THT jack; top view: _1 pad group left, _2 pad group right")
   (fp_text reference REF** (at -9.62 -11.245 0) (layer F.SilkS)
     (effects (font (size 1.0 1.0) (thickness 0.15)))
   )

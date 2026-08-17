@@ -1329,7 +1329,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/df10s-d.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2695,7 +2695,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3740,7 +3740,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "Amphenol"
+			(property "MANUFACTURER" "Amphenol Communications Solutions"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9913,7 +9913,7 @@
 				)
 			)
 		)
-		(property "Description" "DF04S bridge rectifier; manufacturer and exact ordering code require verification"
+		(property "Description" "SMD bridge rectifier, 400 V class"
 			(at 321.31 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9924,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VERIFY"
+		(property "Manufacturer" "TBD"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9935,7 +9935,7 @@
 				)
 			)
 		)
-		(property "MPN" "VERIFY"
+		(property "MPN" "DF04S"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9946,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Package" "VERIFY"
+		(property "Package" "SDIP-4L bridge rectifier"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11236,7 +11236,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional SIDACtor surge protector, 275 V, DO-214AA"
+		(property "Description" "Bidirectional SIDACtor telecom surge protector, 275 V"
 			(at 377.19 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11269,7 @@
 				)
 			)
 		)
-		(property "Package" "DO-214AA (SMB)"
+		(property "Package" "DO-214AA / SMB"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13890,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "USB4105-GF-A-060"
 			(at 25.4 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13922,7 +13922,7 @@
 				)
 			)
 		)
-		(property "Description" "USB-C USB 2.0 receptacle; verify exact GCT USB4105 suffix and mechanics"
+		(property "Description" "USB Type-C USB 2.0 receptacle, 16 contacts, horizontal/top mount"
 			(at 25.4 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13933,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VERIFY"
+		(property "Manufacturer" "GCT"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13944,7 +13944,7 @@
 				)
 			)
 		)
-		(property "MPN" "VERIFY"
+		(property "MPN" "USB4105-GF-A-060"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13955,7 +13955,18 @@
 				)
 			)
 		)
-		(property "Package" "VERIFY"
+		(property "Package" "USB Type-C, 16 contacts, top-mount horizontal"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "USB4105"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14077,7 +14088,7 @@
 				)
 			)
 		)
-		(property "Description" "Modular Jack - Right Angle, Input Output Connectors 6P6C, Without Shield."
+		(property "Description" "Dual 6P6C modular jack, right-angle, through-hole"
 			(at 400.05 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14089,7 +14100,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Amphenol ICC (Commercial Products)"
+		(property "Manufacturer" "Amphenol Communications Solutions"
 			(at 400.05 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14113,7 +14124,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "Dual 6P6C right-angle THT"
 			(at 400.05 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14185,7 +14196,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "RJE0166002"
+		(property "MPN" "RJE0166002"
 			(at 400.05 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16077,7 +16088,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
+		(property "Value" "B3U-1000P"
 			(at 134.112 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -16110,7 +16121,7 @@
 				)
 			)
 		)
-		(property "Description" "Normally-open tactile switch; symbol/footprint family mismatch requires verification"
+		(property "Description" "Normally-open SMD tactile switch"
 			(at 137.16 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16121,7 +16132,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VERIFY"
+		(property "Manufacturer" "Omron"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16132,7 +16143,7 @@
 				)
 			)
 		)
-		(property "MPN" "VERIFY"
+		(property "MPN" "B3U-1000P"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16143,7 +16154,7 @@
 				)
 			)
 		)
-		(property "Package" "VERIFY"
+		(property "Package" "SMD tactile switch"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
