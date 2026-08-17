@@ -1,0 +1,45 @@
+ERC report (2026-08-16T21:59:21, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2450 mils, 1250 mils): Symbol #PWR04 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(3500 mils, 5600 mils): Symbol D2 Pin 4 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6800 mils, 5100 mils): Symbol U2 Pin 16 [VA, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9550 mils, 6050 mils): Symbol U1 Pin 8 [IGND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(13900 mils, 9450 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[lib_symbol_mismatch]: Symbol 'SW_Omron_B3FS' doesn't match copy in library 'Switch'
+    ; warning
+    @(5400 mils, 4600 mils): Symbol SW1 [SW_Omron_B3FS]
+[lib_symbol_mismatch]: Symbol 'DF04S' doesn't match copy in library 'Diode_Bridge'
+    ; warning
+    @(12650 mils, 7350 mils): Symbol D1 [DF04S]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14850 mils, 7100 mils): Vertical Wire, length 3 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14850 mils, 7103 mils): Symbol RV1 Pin 1 [P1, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library ''
+    ; warning
+    @(14850 mils, 7400 mils): Symbol RV1 [EVB_2PIN]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14850 mils, 7697 mils): Vertical Wire, length 3 mils
+
+ ** ERC messages: 11  Errors 5  Warnings 6
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

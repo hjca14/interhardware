@@ -3740,7 +3740,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "Amphenol Communications Solutions"
+			(property "MANUFACTURER" "Amphenol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4391,24 +4391,6 @@
 						)
 					)
 					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect non_logic
-					(at -15.24 -10.16 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5709,6 +5691,12 @@
 		(uuid "61ce7e02-c629-42e6-81e2-5d409bc5556b")
 	)
 	(junction
+		(at 377.19 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bbbe528-a256-4867-87c5-edd75af5e04d")
+	)
+	(junction
 		(at 358.14 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5731,6 +5719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75bd65f0-8556-47e2-a534-e0cfdedbb84e")
+	)
+	(junction
+		(at 40.64 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78e734d1-82ec-4475-8e96-61e56f3f4ae2")
 	)
 	(junction
 		(at 303.53 203.2)
@@ -5805,6 +5799,12 @@
 		(uuid "9783a005-0c02-4c95-b6cd-3a11cf24613d")
 	)
 	(junction
+		(at 377.19 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "992518a0-7fb0-4f75-9070-a7c94a83d79c")
+	)
+	(junction
 		(at 135.89 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5815,6 +5815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa86a488-c65a-4ef0-80ea-b940a4427e91")
+	)
+	(junction
+		(at 25.4 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acf10f60-b9a0-4537-a402-9c39039f02ef")
 	)
 	(junction
 		(at 281.94 147.32)
@@ -5883,10 +5889,10 @@
 		(uuid "d1e8688b-fcbf-4270-b8b3-3a9838a59a68")
 	)
 	(junction
-		(at 377.19 195.58)
+		(at 40.64 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8b0abfb-7fb1-4dd2-9d28-3373c0ba1ec0")
+		(uuid "dc8fb936-ea7c-4277-ab96-68fb27096e06")
 	)
 	(junction
 		(at 48.26 87.63)
@@ -5913,20 +5919,26 @@
 		(uuid "e7078db3-bf0f-40a5-a6a7-35345b81af0e")
 	)
 	(junction
-		(at 377.19 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ede39296-be3d-412c-a306-e328f6733860")
-	)
-	(junction
 		(at 123.19 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f6aeca-80ed-45db-9b52-88254c1d5b94")
 	)
 	(no_connect
+		(at 184.15 105.41)
+		(uuid "0d2953ef-a0ec-419a-a664-f2a7c2d0df0e")
+	)
+	(no_connect
+		(at 153.67 111.76)
+		(uuid "2d943a00-877b-4b7f-92b1-cff4396a1fe5")
+	)
+	(no_connect
 		(at 96.52 149.86)
 		(uuid "35e51033-d258-4051-b455-9175e25df571")
+	)
+	(no_connect
+		(at 184.15 102.87)
+		(uuid "3e1c7be7-2340-4049-a7ee-b44e574cafb1")
 	)
 	(no_connect
 		(at 387.35 207.01)
@@ -5953,12 +5965,32 @@
 		(uuid "94c1b5ce-5387-4b6f-9be9-5936be400228")
 	)
 	(no_connect
+		(at 153.67 109.22)
+		(uuid "a0309285-ad79-422e-8b6f-9a36569401ff")
+	)
+	(no_connect
 		(at 387.35 196.85)
 		(uuid "a46d866c-0dbe-4274-ba51-ebb4d3e22c9f")
 	)
 	(no_connect
 		(at 387.35 209.55)
 		(uuid "ae48bd60-4141-4e4f-8a6f-33a185b58723")
+	)
+	(no_connect
+		(at 184.15 107.95)
+		(uuid "d22bac6f-e978-415c-be13-db22d33c1b79")
+	)
+	(no_connect
+		(at 92.71 113.03)
+		(uuid "dfea1dab-7f95-4e72-8f99-cafacb4484df")
+	)
+	(no_connect
+		(at 153.67 100.33)
+		(uuid "e6464f43-6f57-4af0-b769-e4376914ba39")
+	)
+	(no_connect
+		(at 92.71 110.49)
+		(uuid "f24dcd07-b47a-4d80-b58d-99c5d4c6b61d")
 	)
 	(wire
 		(pts
@@ -6252,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 140.97) (xy 25.4 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef4813a-c114-43e5-8310-e2de52334e03")
+	)
+	(wire
+		(pts
 			(xy 234.95 153.67) (xy 234.95 158.75)
 		)
 		(stroke
@@ -6269,6 +6311,16 @@
 			(type default)
 		)
 		(uuid "2076ea77-2ea3-4a42-9616-273961042099")
+	)
+	(wire
+		(pts
+			(xy 242.57 153.67) (xy 245.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dbfae6-7a48-449a-b36f-638e396967bf")
 	)
 	(wire
 		(pts
@@ -6789,16 +6841,6 @@
 			(type default)
 		)
 		(uuid "4cd3aae8-6d05-45de-b51e-db4b4061ecac")
-	)
-	(wire
-		(pts
-			(xy 242.57 153.67) (xy 245.11 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dd199c4-fd91-480c-8654-60f583a90d20")
 	)
 	(wire
 		(pts
@@ -7599,6 +7641,16 @@
 			(type default)
 		)
 		(uuid "9d865d81-0261-48e3-bbf8-c95442ad7478")
+	)
+	(wire
+		(pts
+			(xy 40.64 120.65) (xy 40.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb7e75f-fdde-4121-bd86-c838401b93d2")
 	)
 	(wire
 		(pts
@@ -8439,6 +8491,16 @@
 			(type default)
 		)
 		(uuid "f6077bdf-d6bc-400c-9599-e306fb19e7fe")
+	)
+	(wire
+		(pts
+			(xy 40.64 115.57) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e821b2-9ea8-4ef9-aa98-d484d5ee5945")
 	)
 	(wire
 		(pts
@@ -12646,6 +12708,252 @@
 		)
 	)
 	(symbol
+		(lib_id "interbridge_telephony:RJE0166002")
+		(at 400.05 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66dba91c-2fee-4933-8303-f4827946421d")
+		(property "Reference" "J1"
+			(at 408.94 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RJE0166002"
+			(at 408.94 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "interbridge_telephony:AMPHENOL_RJE0166002"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Modular Jack - Right Angle, Input Output Connectors 6P6C, Without Shield."
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Amphenol ICC (Commercial Products)"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.75mm"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=eda"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=snap"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RJE0166002"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 400.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2_2"
+			(uuid "c41357e7-f1b0-45c3-a081-e6b63bfb170d")
+		)
+		(pin "2_1"
+			(uuid "17bacdb2-1291-441f-a18d-907f90ee92c6")
+		)
+		(pin "3_2"
+			(uuid "459740af-9080-4b43-85f0-2b3fdaa8292d")
+		)
+		(pin "3_1"
+			(uuid "625e8fa0-0c34-4c98-98ea-7269793030d1")
+		)
+		(pin "5_1"
+			(uuid "137512a1-58bf-4575-9f2b-6bb9a55a827e")
+		)
+		(pin "4_2"
+			(uuid "041648b1-5de0-46ee-9d4e-2be60677e210")
+		)
+		(pin "5_2"
+			(uuid "35575534-790d-4dd4-8460-1152eeb9f809")
+		)
+		(pin "1_1"
+			(uuid "eed2af53-c070-4628-88f3-1bf3f6384f37")
+		)
+		(pin "6_2"
+			(uuid "6ca776f4-42d8-4bf6-8176-a7d1419fcf36")
+		)
+		(pin "1_2"
+			(uuid "88a3c28f-f2c1-420b-a188-06e6e05edac8")
+		)
+		(pin "6_1"
+			(uuid "5af1a15c-49c9-4972-865c-45d3e79c47e8")
+		)
+		(pin "4_1"
+			(uuid "81230b12-7bb6-446a-8e20-e7fb5e9879f4")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 199.39 120.65 90)
 		(mirror x)
@@ -12868,180 +13176,6 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "interbridge_telephony:SI3019-F-FM")
-		(at 238.76 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bf0c834-cfff-4c81-a5bc-a48b64d9d9b2")
-		(property "Reference" "U1"
-			(at 242.1733 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI3019-F-FM"
-			(at 238.76 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "interbridge_telephony:3019-F-FM-QFN40P300X300X90-21N"
-			(at 238.76 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "docs/reference-designs/Si3050-11-18-19.pdf"
-			(at 238.76 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ISOmodem line-side DAA IC, QFN-20 with exposed IGND pad"
-			(at 238.76 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Skyworks Solutions"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SI3019-F-FM"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "QFN-20 + exposed IGND pad"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "20"
-			(uuid "6f9d1f39-af5f-46b6-a9d2-3c8407b64aba")
-		)
-		(pin "16"
-			(uuid "95ebb3de-6e82-488d-84d2-e0992bf7e29f")
-		)
-		(pin "15"
-			(uuid "360dc3ce-8448-4c7d-826e-c38e663092ab")
-		)
-		(pin "17"
-			(uuid "8f8b85a8-7c31-4e4d-9c42-cebe46d58f50")
-		)
-		(pin "4"
-			(uuid "1afdadf4-ca4f-47d8-8b01-72b14b5df01a")
-		)
-		(pin "5"
-			(uuid "4ba45a1a-2e23-4f0b-8e93-4415bd430f26")
-		)
-		(pin "8"
-			(uuid "e895100a-7a72-422c-88e4-5ca714a67a65")
-		)
-		(pin "12"
-			(uuid "51ae17c6-7894-4ad4-8f61-35285ec6b2c2")
-		)
-		(pin "1"
-			(uuid "8e4b3a74-3095-4a20-8ceb-b1e1ac40eb7f")
-		)
-		(pin "14"
-			(uuid "c0282f52-4a27-49b4-b1af-7c171fa1bf43")
-		)
-		(pin "9"
-			(uuid "b1957dd3-008a-4d94-b85b-b9bd5484e327")
-		)
-		(pin "2"
-			(uuid "227ad8ed-e3c4-4b60-94bb-fb16e478fef9")
-		)
-		(pin "13"
-			(uuid "a20c530e-bce4-4c5b-af8d-833adfeec664")
-		)
-		(pin "3"
-			(uuid "f79dcc0a-ae04-4ad9-8177-0f6c1becef26")
-		)
-		(pin "18"
-			(uuid "d89e5311-081b-4760-9218-f1bcebf17e11")
-		)
-		(pin "19"
-			(uuid "3feef54f-04d1-470f-b377-aede3f738e6a")
-		)
-		(pin "11"
-			(uuid "e19e6d90-1ffa-401f-b518-f4531f6194fc")
-		)
-		(pin "10"
-			(uuid "d9eb8115-cb08-485a-915c-6fcbf5754459")
-		)
-		(pin "6"
-			(uuid "ccef7930-cff7-4837-ab52-2269b2af2903")
-		)
-		(pin "7"
-			(uuid "5b9353aa-3eb8-4079-bb89-b99dcd87d3d3")
-		)
-		(pin "20"
-			(uuid "45e463c3-0102-4448-80cc-f06050b783d0")
-		)
-		(pin "21"
-			(uuid "735ea652-8452-4b3e-a370-486c4a6cd0fd")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14026,252 +14160,6 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "interbridge_telephony:RJE0166002")
-		(at 400.05 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95273e5e-9b53-4652-8dcd-3617e9aadda3")
-		(property "Reference" "J1"
-			(at 408.94 193.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RJE0166002"
-			(at 408.94 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RJE0166002:AMPHENOL_RJE0166002"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 6P6C modular jack, right-angle, through-hole"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Amphenol Communications Solutions"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "12.75mm"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Dual 6P6C right-angle THT"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=eda"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RJE0166002/Amphenol/view-part/?ref=snap"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "RJE0166002"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Amphenol"
-			(at 400.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1_2"
-			(uuid "76aec3e5-d127-4f8b-86c1-3dc11d919011")
-		)
-		(pin "2_2"
-			(uuid "b130d8fe-c4e0-4cd9-9b2b-24aa58bfa68f")
-		)
-		(pin "4_1"
-			(uuid "f3db8c3e-1bbb-450b-9a10-edb280ecad7b")
-		)
-		(pin "5_1"
-			(uuid "646c0466-4fa5-4d4a-a3d4-ce61c102cb7d")
-		)
-		(pin "5_2"
-			(uuid "8500be5c-361f-43ff-86dc-dd47929885dc")
-		)
-		(pin "3_2"
-			(uuid "a325254d-24b5-4e80-b8d9-f2a8bc4f43e6")
-		)
-		(pin "1_1"
-			(uuid "5e6a45e5-3fa0-4dfc-8c78-acf5d313404b")
-		)
-		(pin "3_1"
-			(uuid "c89632ce-d194-4ba4-8b71-27049e96e03e")
-		)
-		(pin "4_2"
-			(uuid "e9bed9be-b8d5-4f6d-a17c-d57d654437eb")
-		)
-		(pin "6_1"
-			(uuid "c47934f6-4cbf-4dd8-b455-8a52ee84d753")
-		)
-		(pin "6_2"
-			(uuid "1e05a67c-9ca8-459a-9d93-caa4eae93457")
-		)
-		(pin "2_1"
-			(uuid "683495d0-e8c5-449c-ac5e-c7df0666ae5b")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16181,6 +16069,144 @@
 		)
 	)
 	(symbol
+		(lib_id "interbridge_telephony:SI3019-F-FM")
+		(at 238.76 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e0ce9d-ce8e-46bc-95e9-9c82f3138d62")
+		(property "Reference" "U1"
+			(at 242.1733 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 238.76 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "interbridge_telephony:3019-F-FM-QFN40P300X300X90-21N"
+			(at 238.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "file://C:\\Users\\hjca1\\KiCad\\interhardware\\docs\\reference-designs\\Si3050-11-18-19.pdf"
+			(at 238.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "775ff28a-019c-40a4-92cd-7ac2415abcea")
+		)
+		(pin "14"
+			(uuid "651b2a16-878f-47f9-aad0-bb663aa21f27")
+		)
+		(pin "16"
+			(uuid "031cbd8b-b81f-4177-940a-18e746233a17")
+		)
+		(pin "13"
+			(uuid "9ce74e60-7d57-4785-988c-650b0943f010")
+		)
+		(pin "1"
+			(uuid "b56e1ee2-204c-48b5-bea4-2903ce2fb3ff")
+		)
+		(pin "2"
+			(uuid "cad0f969-841a-4206-8b2c-e833508b2dfe")
+		)
+		(pin "3"
+			(uuid "c83d7ecd-7f0d-4a84-8fab-36d6d6021711")
+		)
+		(pin "4"
+			(uuid "75adff87-02cd-4aaa-8777-9691211daffc")
+		)
+		(pin "5"
+			(uuid "6efc1a42-d228-4464-a063-0627b00d9fd8")
+		)
+		(pin "8"
+			(uuid "f6cfabe1-3ad4-46e7-9a6c-b53c323e89fb")
+		)
+		(pin "9"
+			(uuid "383c2fc5-37d6-4587-b5d5-3999e8504fbf")
+		)
+		(pin "11"
+			(uuid "a58197b9-a06c-4451-9331-b4f05f33a5bc")
+		)
+		(pin "12"
+			(uuid "12578b2a-c999-4663-80c8-9435087aebbb")
+		)
+		(pin "10"
+			(uuid "93cb0bf7-16cd-45e1-83f5-2f19ce0d82f7")
+		)
+		(pin "15"
+			(uuid "c015c68a-5816-40da-b58a-16ce3ab89f9d")
+		)
+		(pin "17"
+			(uuid "4e25dfa1-70c3-4c5d-a09a-ffa894fc2616")
+		)
+		(pin "7"
+			(uuid "de51ad6c-a4b1-4f0c-9105-078adc6b0f97")
+		)
+		(pin "19"
+			(uuid "ad602bf1-e735-45ef-9038-3b28e06a6fde")
+		)
+		(pin "21"
+			(uuid "7f5d870e-19bf-4b46-a21f-316fbc912605")
+		)
+		(pin "20"
+			(uuid "b03acb19-a610-4a24-95c0-093e4d21c0c9")
+		)
+		(pin "18"
+			(uuid "efbb77da-ccfc-4a53-8ce1-cc3e7bdf21b8")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 62.23 31.75 0)
 		(unit 1)
@@ -16271,7 +16297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cacbcc-8287-49eb-9352-91b25d9f8899")
-		(property "Reference" "R_bot"
+		(property "Reference" "R_BO1"
 			(at 125.73 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16368,7 +16394,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "R_bot")
+					(reference "R_BO1")
 					(unit 1)
 				)
 			)
@@ -16730,7 +16756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a9dcf0-0238-4be6-a6b6-4ddb10d0043a")
-		(property "Reference" "R_LED"
+		(property "Reference" "R_LED1"
 			(at 125.73 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16827,7 +16853,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "R_LED")
+					(reference "R_LED1")
 					(unit 1)
 				)
 			)
@@ -16845,7 +16871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7d33c98-b364-47f6-8c06-6ba58764c460")
-		(property "Reference" "C_LED"
+		(property "Reference" "C_LED1"
 			(at 95.2499 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16942,7 +16968,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "C_LED")
+					(reference "C_LED1")
 					(unit 1)
 				)
 			)
