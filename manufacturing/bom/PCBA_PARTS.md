@@ -9,6 +9,7 @@
 | C1,C2 | 2 | Murata GA342A1XGF330JW31L |
 | C4 | 1 | Panasonic EEE-1HA010NR |
 | C8,C9 | 2 | Murata GA342QR7GF681KW01L |
+| D1 | 1 | onsemi MDB6S; 1 A, 600 V single-phase bridge rectifier |
 | D2 | 1 | Worldsemi WS2812B-2020 |
 | FB1,FB2,FB203,FB204 | 4 | Murata BLM18AG601SN1 |
 | J1 | 1 | Amphenol RJE0166002 (one dual jack) |
@@ -26,12 +27,6 @@
 
 The 44 physical parts on 29 BOM lines classified `EQUIVALENT_ALLOWED` may be substituted only when **every** tolerance, power, working-voltage, dielectric/type, polarity/family, package, and footprint constraint in `BOM_FINAL.csv` is met. This includes generic resistors/capacitors and Q1-Q5 by their MMBTA family requirements. `GENERIC` is intentional and is not an invitation to relax specifications.
 
-## Human review before ordering
+## Procurement status
 
-### D1 — exact bridge rectifier
-
-* **Missing decision:** reconcile Value `MB6S` with PCB metadata `onsemi / MB4S`, then freeze an exact orderable bridge in TO-269AA.
-* **Why it blocks ordering:** value and MPN currently identify different parts, and the current metadata does not unambiguously demonstrate the EVB requirement of at least 0.8 A and 400 V.
-* **Limiting source:** SI3050E1EG01SL1 EVB BOM specifies HD04, 0.8 A, 400 V; the current schematic/PCB and footprint must be preserved until a human resolves the exact component.
-
-This is the only `VERIFY_BEFORE_ORDER` BOM line. Connector orientation, 3D fit, and final fabrication approval remain release-review tasks rather than part-number decisions.
+There are zero `VERIFY_BEFORE_ORDER` lines. D1 meets/exceeds the reference-design requirement of 0.8 A / 400 V and uses the footprint already present in the current schematic/PCB. Connector orientation, mechanical fit, antenna keepout review, and final fabrication approval remain release-review tasks rather than component-ordering blockers.

@@ -13,14 +13,15 @@
 * J1 is one footprint with twelve uniquely numbered electrical THT pads plus mechanical NPTH holes. It is one physical BOM item.
 * Dedicated copper areas exist for line-side transistor nets, including named Q1, Q3, and Q5 areas. This is structural evidence of thermal copper, not a thermal-performance sign-off.
 * C1/C2 remain safety capacitors in the isolation interface and preserve the distinct ground domains.
+* D1 is onsemi MDB6S, rated 1 A / 600 V, in the footprint already introduced by the manual PCB/schematic update. Manufacturer, MPN, and value now agree, so its procurement class is `LOCKED`.
 
 ## Findings requiring human review
 
-* **D1 metadata contradiction:** both schematic and PCB show Value `MB6S` and footprint `Package_TO_SOT_SMD:TO-269AA`, while the placed metadata says Manufacturer `onsemi`, MPN `MB4S`. The EVB BOM uses HD04 at 0.8 A / 400 V. An exact bridge whose ratings meet the design requirement must be selected and the metadata reconciled before ordering. The audit did not substitute it.
 * **Connector designator drift:** the current schematic/PCB uses **J2** for GCT USB4105-GF-A-060, despite prior instructions/documents referring to J4. The locked component and footprint are preserved; no reference annotation was changed.
 * **Mechanical/orientation sign-off:** USB and dual RJ footprints are close to the rectangular board boundary, but enclosure fit, mating direction, pin-1 marks, front-panel handedness, and 3D collisions require human/mechanical review.
 * **Thermal sign-off:** Q4/Q5 copper implementation is present, but AN67 thermal equivalence and temperature rise cannot be proven from syntax alone. Perform physical/thermal review.
-* **Rules:** the PCB stores tracks/vias/zones and the user reports DRC 0; this audit does not replace KiCad DRC. Independently rerun the recorded release DRC before approval.
+* **Rules:** the PCB stores tracks/vias/zones. The user reports local ERC without relevant errors and local DRC without relevant circuit/layout violations. The antenna keepout warning was user-reviewed and the region was visually confirmed empty of copper, tracks, vias, and components. This audit does not claim the warning was tool-resolved; final human DRC review remains required before manufacturing.
+* **D1 mechanical rendering:** its footprint and mechanical courtyard exist. A visible 3D model was not validated in the user's KiCad environment; this is non-blocking, and final assembly review relies on footprint dimensions rather than 3D rendering.
 
 ## Footprint-library resolution
 

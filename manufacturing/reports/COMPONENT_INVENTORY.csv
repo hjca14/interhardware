@@ -17,7 +17,7 @@ C52,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_
 C75,10uF,GENERIC,GENERIC,Unpolarized capacitor,0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,No,Top,PLACED,2
 C76,22uF,GENERIC,GENERIC,Unpolarized capacitor,0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,No,Top,PLACED,2
 C_LED1,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
-D1,MB6S,onsemi,MB4S,"Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, DFS SMD package",SOIC4-W,Package_TO_SOT_SMD:TO-269AA,No,Top,PLACED,4
+D1,MDB6S,onsemi,MDB6S,"1 A, 600 V single-phase bridge rectifier",TSSOP-4 / MDBxS,Package_SO:TSSOP-4_4.4x5mm_P4mm,No,Top,PLACED,4
 D2,WS2812B-2020,Worldsemi,WS2812B-2020,"Individually addressable RGB LED, 2.0 x 2.0 mm","PLCC-4, 2.0 x 2.0 mm",LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm,No,Top,PLACED,4
 FB1,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2
 FB2,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2

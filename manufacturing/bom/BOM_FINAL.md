@@ -7,6 +7,7 @@
 | C1,C2 | 2 | 33pF | Murata | GA342A1XGF330JW31L | Safety isolation capacitor | ±5% | N/A | 250VAC | X1/Y2 safety ceramic | 1808 | Capacitor_SMD:C_1808_4520Metric | No | LOCKED | Isolation barrier; exact safety-certified MPN. |
 | C4 | 1 | 1uF | Panasonic | EEE-1HA010NR | Aluminum electrolytic capacitor | ±20% | N/A | 50V | Aluminum electrolytic | 4x5.4mm SMD | Capacitor_SMD:CP_Elec_4x5.4 | No | LOCKED |  |
 | C8,C9 | 2 | 680pF | Murata | GA342QR7GF681KW01L | Safety isolation capacitor | ±10% | N/A | 250VAC | X1/Y2 safety ceramic | 1808 | Capacitor_SMD:C_1808_4520Metric | No | LOCKED | Isolation barrier; exact safety-certified MPN. |
+| D1 | 1 | MDB6S | onsemi | MDB6S | 1 A, 600 V single-phase bridge rectifier | N/A | N/A | 600 V repetitive peak reverse | Single-phase bridge rectifier, 1 A | TSSOP-4 / MDBxS | Package_SO:TSSOP-4_4.4x5mm_P4mm | No | LOCKED | Meets/exceeds the reference-design requirement of 0.8 A / 400 V. |
 | D2 | 1 | WS2812B-2020 | Worldsemi | WS2812B-2020 | Addressable RGB LED | N/A | N/A | 5V nominal | Integrated LED/controller | PLCC-4 2.0x2.0mm | LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm | No | LOCKED |  |
 | FB1,FB2,FB203,FB204 | 4 | 600 Ohm | Murata | BLM18AG601SN1 | Ferrite bead, 600 ohm at 100MHz | ±25% impedance | N/A | 50VDC | Ferrite bead, >=200mA | 0603 | Inductor_SMD:L_0603_1608Metric | No | LOCKED |  |
 | J1 | 1 | RJE0166002 | Amphenol Communications Solutions | RJE0166002 | Dual 6P6C right-angle jack | N/A | N/A | N/A | THT connector | Dual 6P6C right-angle THT | interbridge_telephony:AMPHENOL_RJE0166002 | No | LOCKED | One physical part; _1 LINE, _2 PHONE; contacts 3 RING / 4 TIP. |
@@ -19,7 +20,6 @@
 | U3 | 1 | ESP32-C3-WROOM-02 | Espressif Systems | ESP32-C3-WROOM-02 | Wi-Fi/BLE module with PCB antenna | N/A | N/A | 3.0-3.6V | Integrated PCB antenna (not -02U) | Module | RF_Module:ESP32-C3-WROOM-02 | No | LOCKED |  |
 | U4 | 1 | TPS62162DSG | Texas Instruments | TPS62162DSG | 3.3V 1A step-down converter | N/A | N/A | 3-17V input | WSON-8 + exposed pad | WSON-8-1EP DSG | Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias | No | LOCKED |  |
 | Z1 | 1 | 43V | onsemi | MMSZ43T1G | 43V Zener diode | ±5% | 500mW | 43V nominal | Zener | SOD-123 | Diode_SMD:D_SOD-123 | No | LOCKED |  |
-| D1 | 1 | MB6S | VERIFY | MB4S (PCB metadata) | Single-phase bridge rectifier | N/A | N/A | >=400V | Bridge rectifier, >=0.8A reference-design requirement | TO-269AA | Package_TO_SOT_SMD:TO-269AA | No | VERIFY_BEFORE_ORDER | PCB/schematic Value is MB6S but Manufacturer=onsemi and MPN=MB4S; resolve exact ordering code/current rating before order. No substitution made. |
 | C3 | 1 | 3.9nF | GENERIC | GENERIC | DAA high-voltage capacitor | ±20% | N/A | >=250VDC | X7R ceramic | 1206 | Capacitor_SMD:C_1206_3216Metric | No | EQUIVALENT_ALLOWED | EVB specifies 250V, 20%, X7R; PCB package is larger than EVB 0805. |
 | C30,C31 | 2 | 120pF | GENERIC | GENERIC | DAA high-voltage capacitor | ±10% | N/A | >=250VDC | X7R ceramic | 1206 | Capacitor_SMD:C_1206_3216Metric | No | EQUIVALENT_ALLOWED | EVB specifies 250V, 10%, X7R; PCB package is larger than EVB 0805. |
 | C5,C6,C50,C51 | 4 | 0.1uF | GENERIC | GENERIC | DAA bypass capacitor | ±20% | N/A | >=16VDC | X7R ceramic | 0603 | Capacitor_SMD:C_0603_1608Metric | No | EQUIVALENT_ALLOWED | EVB BOM: 16V X7R 20%. |
@@ -54,6 +54,6 @@
 
 * **Physical components:** 65
 * **BOM lines:** 45
-* **By line:** LOCKED 15, EQUIVALENT_ALLOWED 29, VERIFY_BEFORE_ORDER 1.
-* **By physical quantity:** LOCKED 20, EQUIVALENT_ALLOWED 44, VERIFY_BEFORE_ORDER 1.
+* **By line:** LOCKED 16, EQUIVALENT_ALLOWED 29, VERIFY_BEFORE_ORDER 0.
+* **By physical quantity:** LOCKED 21, EQUIVALENT_ALLOWED 44, VERIFY_BEFORE_ORDER 0.
 * **DNP:** 0.

@@ -65,7 +65,7 @@ def main():
     if any(p['Side']!='Top' for p in parts): errors.append('non-top-side component')
     out=ROOT/'manufacturing/reports/COMPONENT_INVENTORY.csv'; out.parent.mkdir(parents=True,exist_ok=True)
     with out.open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=parts[0].keys()); writer.writeheader(); writer.writerows(parts)
+        writer=csv.DictWriter(f,fieldnames=parts[0].keys(),lineterminator='\n'); writer.writeheader(); writer.writerows(parts)
     print(f'{len(parts)} PCB components; {len(sch)} schematic components; wrote {out.relative_to(ROOT)}')
     if errors:
         print('\n'.join(errors),file=sys.stderr); return 1
