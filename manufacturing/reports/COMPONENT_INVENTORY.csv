@@ -1,0 +1,66 @@
+Ref,Value,Manufacturer,MPN,Description,Package,Footprint,DNP,Side,Status,Electrical_Pads
+C1,33pF,Murata,GA342A1XGF330JW31L,"33 pF, X1/Y2 safety capacitor, 250 VAC, package 1808",1808 / 4520 metric,Capacitor_SMD:C_1808_4520Metric,No,Top,PLACED,2
+C2,33pF,Murata,GA342A1XGF330JW31L,"33 pF, X1/Y2 safety capacitor, 250 VAC, package 1808",1808 / 4520 metric,Capacitor_SMD:C_1808_4520Metric,No,Top,PLACED,2
+C3,3.9nF,GENERIC,GENERIC,Unpolarized capacitor,1206_3216Metric,Capacitor_SMD:C_1206_3216Metric,No,Top,PLACED,2
+C4,1uF,Panasonic,EEE-1HA010NR,"1 uF, 50 V SMD aluminum electrolytic capacitor","SMD aluminum electrolytic, 4 x 5.4 mm",Capacitor_SMD:CP_Elec_4x5.4,No,Top,PLACED,2
+C5,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C6,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C7,2.7nF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C8,680pF,Murata,GA342QR7GF681KW01L,"680 pF, X7R, X1/Y2 safety capacitor, 250 VAC, package 1808",1808 / 4520 metric,Capacitor_SMD:C_1808_4520Metric,No,Top,PLACED,2
+C9,680pF,Murata,GA342QR7GF681KW01L,"680 pF, X7R, X1/Y2 safety capacitor, 250 VAC, package 1808",1808 / 4520 metric,Capacitor_SMD:C_1808_4520Metric,No,Top,PLACED,2
+C10,0.01uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C30,120pF,GENERIC,GENERIC,Unpolarized capacitor,1206_3216Metric,Capacitor_SMD:C_1206_3216Metric,No,Top,PLACED,2
+C31,120pF,GENERIC,GENERIC,Unpolarized capacitor,1206_3216Metric,Capacitor_SMD:C_1206_3216Metric,No,Top,PLACED,2
+C50,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C51,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C52,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+C75,10uF,GENERIC,GENERIC,Unpolarized capacitor,0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,No,Top,PLACED,2
+C76,22uF,GENERIC,GENERIC,Unpolarized capacitor,0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,No,Top,PLACED,2
+C_LED1,0.1uF,GENERIC,GENERIC,Unpolarized capacitor,0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,No,Top,PLACED,2
+D1,MB6S,onsemi,MB4S,"Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, DFS SMD package",SOIC4-W,Package_TO_SOT_SMD:TO-269AA,No,Top,PLACED,4
+D2,WS2812B-2020,Worldsemi,WS2812B-2020,"Individually addressable RGB LED, 2.0 x 2.0 mm","PLCC-4, 2.0 x 2.0 mm",LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm,No,Top,PLACED,4
+FB1,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2
+FB2,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2
+FB203,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2
+FB204,600 Ohm,Murata,BLM18AG601SN1,"Ferrite bead, 600 Ohm at 100 MHz, 0603 / 1608 metric",0603 / 1608 metric,Inductor_SMD:L_0603_1608Metric,No,Top,PLACED,2
+J1,RJE0166002,,,"Modular Jack - Right Angle, Input Output Connectors 6P6C, Without Shield.",None,interbridge_telephony:AMPHENOL_RJE0166002,No,Top,PLACED,12
+J2,USB_C_Receptacle_USB2.0_16P,GCT,USB4105-GF-A-060,USB 2.0-only 16P Type-C Receptacle connector,"USB Type-C, 16 contacts, top-mount horizontal",Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,No,Top,PLACED,17
+L1,2.2uH,TDK,VLS3012HBX-2R2M-N,"2.2 uH shielded power inductor, TDK VLS3012HBX series",VLS3012 SMD,interbridge_telephony:IND_VLS3012HBX-2R2M-N,No,Top,PLACED,2
+Q1,MMBTA42,TBD,MMBTA42,MMBTA42 NPN high-voltage transistor; manufacturer TBD,SOT-23,Package_TO_SOT_SMD:SOT-23,No,Top,PLACED,3
+Q2,MMBTA92,TBD,MMBTA92,MMBTA92 PNP high-voltage transistor; manufacturer TBD,SOT-23,Package_TO_SOT_SMD:SOT-23,No,Top,PLACED,3
+Q3,MMBTA42,TBD,MMBTA42,MMBTA42 NPN high-voltage transistor; manufacturer TBD,SOT-23,Package_TO_SOT_SMD:SOT-23,No,Top,PLACED,3
+Q4,MMBTA06,TBD,MMBTA06,MMBTA06 NPN transistor; manufacturer TBD,SOT-23,Package_TO_SOT_SMD:SOT-23,No,Top,PLACED,3
+Q5,MMBTA06,TBD,MMBTA06,MMBTA06 NPN transistor; manufacturer TBD,SOT-23,Package_TO_SOT_SMD:SOT-23,No,Top,PLACED,3
+R1,1.07k Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R2,150 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R3,3.65k Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R4,2.49k Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R5,100k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R6,100k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R9,1M Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R10,536 Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R11,73.2 Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R12,56.2 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R13,56.2 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R30,15M Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R31,5.1M Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R32,15M Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R33,5.1M Ohm,GENERIC,GENERIC,Resistor,1206_3216Metric,Resistor_SMD:R_1206_3216Metric,No,Top,PLACED,2
+R52,47k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R53,47k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R54,47k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R55,10k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R71,5.1k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R72,5.1k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R73,22 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R74,22 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R75,100k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+RV1,P3100SBL,Littelfuse,P3100SBL,"Bidirectional SIDACtor telecom surge protector, 275 V",DO-214AA / SMB,Diode_SMD:D_SMB,No,Top,PLACED,2
+R_BO1,10k Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+R_LED1,330 Ohm,GENERIC,GENERIC,Resistor,0603_1608Metric,Resistor_SMD:R_0603_1608Metric,No,Top,PLACED,2
+SW1,B3U-1000P,Omron,B3U-1000P,Omron B3FS 6x6mm single pole normally-open tactile switch,SMD tactile switch,Button_Switch_SMD:SW_SPST_B3U-1000P,No,Top,PLACED,2
+U1,~,,,,,interbridge_telephony:3019-F-FM-QFN40P300X300X90-21N,No,Top,PLACED,21
+U2,~,,,,,interbridge_telephony:3050-E1-FM-QFN50P400X400X80-25N,No,Top,PLACED,25
+U3,ESP32-C3-WROOM-02,Espressif Systems,ESP32-C3-WROOM-02,ESP32-C3 Wi-Fi/BLE module with integrated PCB antenna; not -02U,Module with integrated PCB antenna,RF_Module:ESP32-C3-WROOM-02,No,Top,PLACED,20
+U4,TPS62162DSG,Texas Instruments,TPS62162DSG,"3 V to 17 V, 1 A step-down converter, fixed 3.3 V, WSON-8 DSG with exposed pad",WSON-8 DSG + exposed pad,Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,No,Top,PLACED,10
+Z1,43V,onsemi,MMSZ43T1G,"43 V, 500 mW Zener diode",SOD-123,Diode_SMD:D_SOD-123,No,Top,PLACED,2
