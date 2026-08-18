@@ -1509,50 +1509,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode_Bridge:MB6S"
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Diode_Bridge:MDB6S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 2.54 6.985 0)
+				(at 3.81 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "MB6S"
-				(at 2.54 5.08 0)
+			(property "Value" "MDB6S"
+				(at 6.35 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-269AA"
-				(at 3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88573/dfs.pdf"
+			(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1563,7 +1546,7 @@
 					)
 				)
 			)
-			(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, DFS SMD package"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1574,7 +1557,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "rectifier acdc"
+			(property "Description" "Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1585,7 +1568,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?269AA*"
+			(property "ki_keywords" "bridge diode rectifier ac dc acdc ac-dc"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1596,7 +1579,18 @@
 					)
 				)
 			)
-			(symbol "MB6S_0_1"
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P4mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MDB6S_1_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
@@ -1705,12 +1699,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "MB6S_1_1"
 				(pin passive line
-					(at 0 -7.62 90)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1726,9 +1718,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 7.62 270)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name ""
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1744,9 +1736,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,9 +1754,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6194,10 +6186,6 @@
 		(uuid "70e4a730-bbe7-45e6-acc3-b7dd8b57dc60")
 	)
 	(no_connect
-		(at 308.61 195.58)
-		(uuid "74fdccfc-752e-4a21-b56f-486d8ba09594")
-	)
-	(no_connect
 		(at 387.35 191.77)
 		(uuid "77aec934-6ca2-4869-be9c-820a3ce08443")
 	)
@@ -6228,14 +6216,6 @@
 	(no_connect
 		(at 387.35 209.55)
 		(uuid "ae48bd60-4141-4e4f-8a6f-33a185b58723")
-	)
-	(no_connect
-		(at -102.87 116.84)
-		(uuid "af326488-0fac-4f4b-b65c-832e525386b3")
-	)
-	(no_connect
-		(at 196.85 170.18)
-		(uuid "cae53fac-1cb0-4ecd-9c89-81a204cae068")
 	)
 	(no_connect
 		(at 184.15 107.95)
@@ -10700,6 +10680,92 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Bridge:MDB6S")
+		(at 321.31 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a206d6-ba3c-4a9d-be01-abc13cc26870")
+		(property "Reference" "D1"
+			(at 331.47 180.2698 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MDB6S"
+			(at 331.47 182.8098 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-4_4.4x5mm_P4mm"
+			(at 321.31 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
+			(at 321.31 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4"
+			(at 321.31 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "04acc5de-fcee-424e-a73d-3117b2195f3f")
+		)
+		(pin "3"
+			(uuid "3addb918-ef8e-4e78-a149-5b5d82533866")
+		)
+		(pin "1"
+			(uuid "f6f711e6-e998-4227-8376-c207b0d2f221")
+		)
+		(pin "2"
+			(uuid "fea16c98-ca43-4a53-a687-e8b96d785903")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15595,126 +15661,6 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode_Bridge:MB6S")
-		(at 321.31 186.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a93bcbc8-cfdb-4729-9b55-ac7d93dc5144")
-		(property "Reference" "D1"
-			(at 330.2 180.2698 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MB6S"
-			(at 330.2 182.8098 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-269AA"
-			(at 324.485 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88573/dfs.pdf"
-			(at 321.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, DFS SMD package"
-			(at 321.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MB4S"
-			(at 321.31 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "SOIC4-W"
-			(at 321.31 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 321.31 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "fb9f6c18-5cb8-4c94-ac5d-cfd9c25ea722")
-		)
-		(pin "2"
-			(uuid "0fec5dd9-c824-476a-be60-ddd48348bd94")
-		)
-		(pin "3"
-			(uuid "c73877a4-e0e0-44ab-9060-bf48fe2fa8ca")
-		)
-		(pin "1"
-			(uuid "f4e6fbec-68d3-44bb-bc55-9c13d8d20aed")
-		)
-		(instances
-			(project "interhardware"
-				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
