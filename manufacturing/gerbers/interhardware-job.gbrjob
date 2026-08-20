@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.5"
     },
-    "CreationDate": "2026-08-20T10:25:57-03:00"
+    "CreationDate": "2026-08-20T10:37:49-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,18 +49,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "interhardware-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "interhardware-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "interhardware-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
