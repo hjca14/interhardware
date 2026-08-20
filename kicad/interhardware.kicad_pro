@@ -555,7 +555,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/hjca1/KiCad/interhardware/manufacturing/gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
