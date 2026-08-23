@@ -1,8 +1,9 @@
-### Footprint positions - created on 2026-08-23T18:21:17 ###
+### Footprint positions - created on 2026-08-23T18:28:04 ###
 ### Printed by KiCad version 10.0.5
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                          Package                                                              PosX       PosY       Rot  Side
+AOUT      Conn_01x01                   PinHeader_1x01_P2.54mm_Vertical                                  190.4000  -128.2000    0.0000  top
 BOOT      Conn_01x01                   PinHeader_1x01_P2.54mm_Vertical                                  191.2000  -106.2000    0.0000  top
 C1        33pF                         C_1808_4520Metric                                                202.3150  -120.1500    0.0000  top
 C2        33pF                         C_1808_4520Metric                                                202.3150  -123.0000    0.0000  top

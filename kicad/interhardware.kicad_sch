@@ -6321,10 +6321,6 @@
 		(uuid "0d2953ef-a0ec-419a-a664-f2a7c2d0df0e")
 	)
 	(no_connect
-		(at 153.67 111.76)
-		(uuid "2d943a00-877b-4b7f-92b1-cff4396a1fe5")
-	)
-	(no_connect
 		(at 96.52 149.86)
 		(uuid "35e51033-d258-4051-b455-9175e25df571")
 	)
@@ -7289,6 +7285,16 @@
 			(type default)
 		)
 		(uuid "52af7451-7d9f-488d-a46c-c847ac9efeeb")
+	)
+	(wire
+		(pts
+			(xy 148.59 124.46) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53764996-e7e6-421c-891c-d3712fa39783")
 	)
 	(wire
 		(pts
@@ -8769,6 +8775,16 @@
 			(type default)
 		)
 		(uuid "e560d2ea-2a9f-4eee-aa34-62edcb3af28f")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6416bf7-3671-47a0-8aec-5ca43573a671")
 	)
 	(wire
 		(pts
@@ -13846,7 +13862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2c58fb-f081-4b0a-89d4-938933cf7ab9")
-		(property "Reference" "J4"
+		(property "Reference" "GND1"
 			(at 152.4 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +13923,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J4")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -15291,6 +15307,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 148.59 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "988cb3d7-1a62-4f35-aabf-1d497c14410e")
+		(property "Reference" "AOUT1"
+			(at 151.13 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 151.13 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "555e411c-1b70-4bbb-b4f1-7f65995ee570")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "AOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBTA06")
 		(at 302.26 109.22 0)
 		(unit 1)
@@ -16097,7 +16192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b59151-f97d-4d70-b3b0-4caa6b3a248c")
-		(property "Reference" "J3"
+		(property "Reference" "BOOT1"
 			(at 123.19 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16158,7 +16253,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "J3")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -17730,7 +17825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de6b70af-33ae-4b52-aa9a-f1538c71013e")
-		(property "Reference" "EN"
+		(property "Reference" "EN1"
 			(at 95.25 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17791,7 +17886,7 @@
 		(instances
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
-					(reference "EN")
+					(reference "EN1")
 					(unit 1)
 				)
 			)
