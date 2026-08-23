@@ -5945,6 +5945,12 @@
 		(uuid "10bf940c-96c7-4b15-ba93-3aed8e5d178e")
 	)
 	(junction
+		(at 87.63 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113c6b9a-f553-4b01-b185-acab78bde9dd")
+	)
+	(junction
 		(at 74.93 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6137,13 +6143,7 @@
 		(uuid "8965f477-1fec-4a6b-b1b0-fbaffeb1fb3f")
 	)
 	(junction
-		(at 87.63 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fcb511f-d9b6-46db-b312-dfff2b7bb3eb")
-	)
-	(junction
-		(at 115.57 48.26)
+		(at 110.49 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9018c842-a3ae-4e01-9fb8-55838949cedc")
@@ -6309,6 +6309,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f6aeca-80ed-45db-9b52-88254c1d5b94")
+	)
+	(junction
+		(at 110.49 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbab37cb-b7b0-42f1-9894-8c75e83bac71")
 	)
 	(junction
 		(at 25.4 140.97)
@@ -6998,6 +7004,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 35.56) (xy 132.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a31954e-a59b-4649-95d1-9b956d480bab")
+	)
+	(wire
+		(pts
 			(xy 33.02 35.56) (xy 58.42 35.56)
 		)
 		(stroke
@@ -7108,7 +7124,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 35.56) (xy 115.57 35.56)
+			(xy 87.63 35.56) (xy 110.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7205,6 +7221,16 @@
 			(type default)
 		)
 		(uuid "4cd3aae8-6d05-45de-b51e-db4b4061ecac")
+	)
+	(wire
+		(pts
+			(xy 132.08 44.45) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd160f4-f8bf-4a28-8d34-0c9355b02bda")
 	)
 	(wire
 		(pts
@@ -7478,6 +7504,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 36.83) (xy 132.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679349b6-5666-4c79-adee-826b05bc1fa1")
+	)
+	(wire
+		(pts
 			(xy 45.72 87.63) (xy 48.26 87.63)
 		)
 		(stroke
@@ -7568,7 +7604,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 36.83) (xy 115.57 35.56)
+			(xy 110.49 36.83) (xy 110.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7578,7 +7614,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 48.26) (xy 115.57 52.07)
+			(xy 110.49 48.26) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8268,7 +8304,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 44.45) (xy 115.57 48.26)
+			(xy 110.49 44.45) (xy 110.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9166,6 +9202,16 @@
 		)
 		(uuid "337f11bd-037a-4466-9d04-ceade878a8ea")
 	)
+	(label "RGDT"
+		(at 132.08 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37179b13-59f2-463d-9c27-27bdaedb5868")
+	)
 	(label "DCT3"
 		(at 304.8 135.89 0)
 		(effects
@@ -9427,7 +9473,7 @@
 		(uuid "db87453d-a84f-4346-a57b-f13e7f3c7d75")
 	)
 	(label "BOOT"
-		(at 115.57 52.07 0)
+		(at 110.49 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10441,7 +10487,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 40.64 0)
+		(at 110.49 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10451,7 +10497,7 @@
 		(dnp no)
 		(uuid "16fcdd88-8da5-4131-886c-d4aea7a417a1")
 		(property "Reference" "R57"
-			(at 113.03 39.3699 0)
+			(at 107.95 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10462,7 +10508,7 @@
 			)
 		)
 		(property "Value" "10k Ohm"
-			(at 113.03 41.9099 0)
+			(at 107.95 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10473,7 +10519,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.792 40.64 90)
+			(at 108.712 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 40.64 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10495,7 +10541,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 40.64 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10552,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 205.74 -24.13 0)
+			(at 200.66 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,7 +10563,7 @@
 			)
 		)
 		(property "MPN" "GENERIC"
-			(at 205.74 -24.13 0)
+			(at 200.66 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10574,7 @@
 			)
 		)
 		(property "Package" "0603_1608Metric"
-			(at 205.74 -24.13 0)
+			(at 200.66 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16182,7 +16228,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 120.65 48.26 0)
+		(at 115.57 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16193,7 +16239,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4b59151-f97d-4d70-b3b0-4caa6b3a248c")
 		(property "Reference" "BOOT1"
-			(at 123.19 46.9899 0)
+			(at 118.11 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16204,7 +16250,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 123.19 49.5299 0)
+			(at 118.11 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16215,7 +16261,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 120.65 48.26 0)
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16226,7 +16272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 48.26 0)
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16237,7 +16283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 48.26 0)
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16281,7 +16327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k Ohm"
+		(property "Value" "10k Ohm"
 			(at 142.24 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16598,6 +16644,120 @@
 			(project "interhardware"
 				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b106ecab-8f92-4ca0-8640-a4d7a6363f90")
+		(property "Reference" "R58"
+			(at 129.54 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k Ohm"
+			(at 129.54 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 40.64 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 222.25 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GENERIC"
+			(at 222.25 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603_1608Metric"
+			(at 222.25 -24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b607d891-c10b-47cc-bffd-8613f680d8b7")
+		)
+		(pin "2"
+			(uuid "865335bf-3c29-47c6-bbbb-149775fa91e7")
+		)
+		(instances
+			(project "interhardware"
+				(path "/54dcf537-a517-4a60-ba81-f3f59fcd6b9a"
+					(reference "R58")
 					(unit 1)
 				)
 			)
