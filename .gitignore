@@ -28,5 +28,8 @@ Thumbs.db
 # Local logs
 *.log
 
+# User-specific files
+.prot_manufacturing/
+
 # Project sources (*.kicad_pro, *.kicad_sch and *.kicad_pcb), project libraries,
 # and manufacturing outputs are intentionally not ignored.
