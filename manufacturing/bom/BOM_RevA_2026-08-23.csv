@@ -1,0 +1,47 @@
+﻿Refs,Qty,Value,Manufacturer,Base_MPN,Approved_Sourcing_MPN,Description,Tolerance,Power_Rating,Voltage_Rating,Dielectric_or_Type,Package,Footprint,Procurement_Class,Notes
+"C1,C2",2,33pF,Murata,GA342A1XGF330JW31L,,Safety isolation capacitor,±5%,N/A,250VAC,X1/Y2 safety ceramic,1808,Capacitor_SMD:C_1808_4520Metric,LOCKED,Isolation barrier; exact safety-certified MPN.
+C3,1,3.9nF,GENERIC,GENERIC,CC1206MRX7RYBB392,DAA high-voltage capacitor,±20%,N/A,>=250VDC,X7R ceramic,1206,Capacitor_SMD:C_1206_3216Metric,EQUIVALENT_ALLOWED,"EVB specifies 250V, 20%, X7R; PCB package is larger than EVB 0805."
+C4,1,1uF,Panasonic,EEE-1HA010NR,,Aluminum electrolytic capacitor,±20%,N/A,50V,Aluminum electrolytic,4x5.4mm SMD,Capacitor_SMD:CP_Elec_4x5.4,LOCKED,
+"C5,C6,C50,C51",4,0.1uF,GENERIC,GENERIC,C0603C104M4RAC7411,DAA bypass capacitor,±20%,N/A,>=16VDC,X7R ceramic,0603,Capacitor_SMD:C_0603_1608Metric,EQUIVALENT_ALLOWED,EVB BOM: 16V X7R 20%.
+C7,1,2.7nF,GENERIC,GENERIC,GCM188R71H272MA37D,DAA capacitor,±20%,N/A,>=50VDC,X7R ceramic,0603,Capacitor_SMD:C_0603_1608Metric,EQUIVALENT_ALLOWED,EVB BOM: 50V X7R 20%.
+"C8,C9",2,680pF,Murata,GA342QR7GF681KW01L,,Safety isolation capacitor,±10%,N/A,250VAC,X1/Y2 safety ceramic,1808,Capacitor_SMD:C_1808_4520Metric,LOCKED,Isolation barrier; exact safety-certified MPN.
+C10,1,0.01uF,GENERIC,GENERIC,C0603C103M4RACTU,DAA capacitor,±20%,N/A,>=16VDC,X7R ceramic,0603,Capacitor_SMD:C_0603_1608Metric,EQUIVALENT_ALLOWED,"EVB BOM specifies X7R, 20%; 16V minimum sourcing constraint for low-voltage D..."
+"C30,C31",2,120pF,GENERIC,GENERIC,HHV1206R7121K102NSLJ,DAA high-voltage capacitor,±10%,N/A,>=250VDC,X7R ceramic,1206,Capacitor_SMD:C_1206_3216Metric,EQUIVALENT_ALLOWED,"EVB specifies 250V, 10%, X7R; PCB package is larger than EVB 0805."
+C52,1,0.1uF,GENERIC,GENERIC,0603ZC104KAT2A,Digital decoupling capacitor,±10%,N/A,>=10VDC,X7R ceramic,0603,Capacitor_SMD:C_0603_1608Metric,EQUIVALENT_ALLOWED,"Digital-domain decoupling, not an EVB line-side capacitor."
+C75,1,10uF,GENERIC,GENERIC,TCC0805X5R106M250FT,TPS62162 input capacitor,±20%,N/A,>=25VDC,X7R or X5R ceramic,0805,Capacitor_SMD:C_0805_2012Metric,EQUIVALENT_ALLOWED,Voltage rating covers TPS62162 17V maximum input; account for DC-bias derating.
+C76,1,22uF,GENERIC,GENERIC,GRM21BR60J226ME39L,TPS62162 output capacitor,±20%,N/A,>=6.3VDC,X7R or X5R ceramic,0805,Capacitor_SMD:C_0805_2012Metric,EQUIVALENT_ALLOWED,3.3V output; account for DC-bias derating.
+D1,1,MDB6S,onsemi,MDB6S,,"1 A, 600 V single-phase bridge rectifier",N/A,N/A,600 V repetiti...,,TSSOP-4 / MDBxS,Package_SO:TSSOP-4_4.4x5mm_P4mm,LOCKED,Meets/exceeds the reference-design requirement of 0.8 A / 400 V.
+D2,1,WS2812B-2020,Worldsemi,WS2812B-2020,,Addressable RGB LED,N/A,N/A,5V nominal,Integrated LED/...,PLCC-4 2.0x2.0mm,LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm,LOCKED,
+"FB1,FB2,FB203,FB204",4,600 Ohm,Murata,BLM18AG601SN1,BLM18AG601SN1D,"Ferrite bead, 600 ohm at 100MHz",±25% impedance,N/A,50VDC,Fe...,0603,Inductor_SMD:L_0603_1608Metric,LOCKED,
+J1,1,RJE0166002,Amphenol Communications Solutions,RJE0166002,,Dual 6P6C right-angle jack,N/A,N/A,N/A,THT connector,Dual 6P6C right-angle THT,interbridge_telephony:AMPHENOL_RJE0166002,LOCKED,"One physical part; _1 LINE, _2 PHONE; contacts 3 RING / 4 TIP."
+J2,1,USB4105-GF-A-060,GCT,USB4105-GF-A-060,,USB Type-C USB2 receptacle,N/A,N/A,5V,16-contact h...,USB-C,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,LOCKED,Current designator is J2 (earlier documentation called it J4).
+L1,1,2.2uH,TDK,VLS3012HBX-2R2M-N,,Shielded power inductor,±20%,Isat >=2.84A,N/A,Wirewound shiel...,VLS3012,interbridge_telephony:IND_VLS3012HBX-2R2M-N,LOCKED,
+"Q1,Q3",2,MMBTA42,GENERIC,MMBTA42,,High-voltage NPN transistor,N/A,SOT-23 dissipation; verify asse...,,,SOT-23,Package_TO_SOT_SMD:SOT-23,EQUIVALENT_ALLOWED,"Reference design uses MMBTA42 family; no manufacturer frozen. Approved sourcing brand: UMW, provided ratings/package/pinout match."
+Q2,1,MMBTA92,GENERIC,MMBTA92,,High-voltage PNP transistor,N/A,SOT-23 dissipation; verify asse...,,,SOT-23,Package_TO_SOT_SMD:SOT-23,EQUIVALENT_ALLOWED,"Reference design uses MMBTA92 family; no manufacturer frozen. Approved sourcing brand: UMW, provided ratings/package/pinout match."
+"Q4,Q5",2,MMBTA06,GENERIC,MMBTA06,,NPN transistor,N/A,SOT-23 dissipation; verify assembly thermal ...,,,SOT-23,Package_TO_SOT_SMD:SOT-23,EQUIVALENT_ALLOWED,"Reference design uses MMBTA06 family; no manufacturer frozen. Approved sourcing brand: UMW, provided ratings/package/pinout match."
+R1,1,1.07k Ohm,GENERIC,GENERIC,AC1206FR-071K07L,Thick-film resistor,±1%,>=0.5W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/2W.
+R2,1,150 Ohm,GENERIC,GENERIC,RC0603FR-07150RL,Thick-film resistor,±1%,>=0.0625W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/16W.
+R3,1,3.65k Ohm,GENERIC,GENERIC,AC1206FR-073K65L,Thick-film resistor,±1%,>=0.5W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/2W.
+R4,1,2.49k Ohm,GENERIC,GENERIC,TC0650F2491T5J,Thick-film resistor,±1%,>=0.5W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/2W.
+"R5,R6",2,100k Ohm,GENERIC,GENERIC,0603WAJ0104T5E,Thick-film resistor,±5%,>=0.0625W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/16W.
+R9,1,1M Ohm,GENERIC,GENERIC,AC0603JR-071ML,Thick-film resistor,±5%,>=0.1W,>=50V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,DAA bias resistor.
+R10,1,536 Ohm,GENERIC,GENERIC,RC1206FR-07536RL,Thick-film resistor,±1%,>=0.25W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/4W.
+R11,1,73.2 Ohm,GENERIC,GENERIC,RS-06K73R2FT,Thick-film resistor,±1%,>=0.5W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/2W.
+"R12,R13",2,56.2 Ohm,GENERIC,GENERIC,RTT0356R2FTP,Thick-film resistor,±1%,>=0.0625W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,DAA EVB requires 1/16W.
+"R30,R32",2,15M Ohm,GENERIC,GENERIC,HV06W4J0156T5E,Thick-film resistor,±5%,>=0.125W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,High-value DAA line-side resistor; EVB requires 1/8W.
+"R31,R33",2,5.1M Ohm,GENERIC,GENERIC,1206W4J0515T5E,Thick-film resistor,±5%,>=0.125W,>=200V,Thick-film,1206,Resistor_SMD:R_1206_3216Metric,EQUIVALENT_ALLOWED,High-value DAA line-side resistor; EVB requires 1/8W.
+"R52,R53",2,47k Ohm,GENERIC,GENERIC,0603WAJ0473T5E,Thick-film resistor,±5%,>=0.0625W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,DAA/digital control resistors.
+"R54,R55,R56,R57,R_BO1",5,10k Ohm,GENERIC,GENERIC,RC0603FR-0710KL,Thick-film resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,10k digital bias resistors. R54 = Si3050 RESET pulldown to GND; R56 = GPIO2/SDO pull-up to 3.3V; R57 = GPIO9/BOOT pull-up to 3.3V; R55 and R_BO1 retain their existing digital bias functions.
+R58,1,4.7k Ohm,GENERIC,GENERIC,,RGDT open-drain pull-up resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,Pull-up from Si3050 RGDT / ESP32-C3 GPIO8 to +3.3V.
+"R71,R72",2,5.1k Ohm,GENERIC,GENERIC,0603WAF5101T5E,Thick-film resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,USB-C CC resistors.
+"R73,R74",2,22 Ohm,GENERIC,GENERIC,0603WAF220JT5E,Thick-film resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,USB data series resistors.
+R75,1,100k Ohm,GENERIC,GENERIC,CQ03WAF1003T5E,Thick-film resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,TPS62162 control/bias resistor.
+RV1,1,P3100SBL,Littelfuse,P3100SBL,P3100SBLRP,Bidirectional SIDACtor,N/A,N/A,275V standoff,"SIDACtor, not...",DO-214AA / SMB,Diode_SMD:D_SMB,LOCKED,
+SW1,1,B3U-1000P,Omron,B3U-1000P,,Normally-open tactile switch,N/A,N/A,N/A,Momentary SPST-NO,SMD,Button_Switch_SMD:SW_SPST_B3U-1000P,LOCKED,
+U1,1,SI3019-F-FM,Skyworks Solutions,SI3019-F-FM,,Line-side DAA IC,N/A,N/A,Per datasheet,QFN-20 + exposed...,QFN-20-1EP,interbridge_telephony:3019-F-FM-QFN40P300X300X90-21N,LOCKED,Exposed electrical pad 21 maps to IGND.
+U2,1,SI3050-E1-FM,Skyworks Solutions,SI3050-E1-FM,,System-side DAA IC,N/A,N/A,Per datasheet,QFN-24 + expo...,QFN-24-1EP,interbridge_telephony:3050-E1-FM-QFN50P400X400X80-25N,LOCKED,Exposed electrical pad 25 maps to GND.
+U3,1,ESP32-C3-WROOM-02,Espressif Systems,ESP32-C3-WROOM-02,ESP32-C3-WROOM-02-N4 OR ESP32-C3-WROOM-02-H4,Wi-Fi/BLE module with PCB antenna,N/A,N/A,3.0-3.6V『...,,Module,RF_Module:ESP32-C3-WROOM-02,LOCKED,"4 MB flash, integrated PCB antenna. N4 and H4 are both approved; do not use -02U."
+U4,1,TPS62162DSG,Texas Instruments,TPS62162DSG,TPS62162DSGT,3.3V 1A step-down converter,N/A,N/A,3-17V input,WSON-8 ...,WSON-8-1EP DSG,Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6...,LOCKED,
+Z1,1,43V,onsemi,MMSZ43T1G,,43V Zener diode,±5%,500mW,43V nominal,Zener,SOD-123,Diode_SMD:D_SOD-123,LOCKED,
+C_LED1,1,0.1uF,GENERIC,GENERIC,0603ZC104KAT2A,LED local decoupling capacitor,±10%,N/A,>=10VDC,X7R ceramic,0603,Capacitor_SMD:C_0603_1608Metric,EQUIVALENT_ALLOWED,
+R_LED1,1,330 Ohm,GENERIC,GENERIC,0603WAF3300T5E,Thick-film resistor,±1%,>=0.1W,>=25V,Thick-film,0603,Resistor_SMD:R_0603_1608Metric,EQUIVALENT_ALLOWED,LED series resistor.
